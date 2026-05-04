@@ -1,0 +1,246 @@
+
+
+<!DOCTYPE html>
+<html lang="en-US" xml:lang="en-US">
+
+
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>
+		Login</title>
+	<meta name="generator"
+		content="Login- Academic Pro - For OJS 3.2.X by openjournaltheme.com">
+	<meta name="robots" content="index follow">
+	<meta name="googlebot" content="index follow">
+					<meta name="description" content="">
+		<meta name="og:description" content="">
+		<meta name="author" content="Journal Portal - Universitas Islam Indonesia" />
+		<meta name="copyright" content="Journal Portal - Universitas Islam Indonesia" />
+		
+
+		
+<meta name="generator" content="Open Journal Systems 3.3.0.10">
+<meta name="academicprothemeplugin" content="Academic Pro - For OJS 3.2.X Version 3.12.0.3 by openjournaltheme.com">
+	
+	<link rel="stylesheet" href="https://journal.uii.ac.id/plugins/themes/academic_pro3/styles/header/red.css?v=3.3.0.10" type="text/css" /><link rel="stylesheet" href="https://journal.uii.ac.id/index/$$$call$$$/page/page/css?name=bootstrap" type="text/css" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css?v=3.3.0.10" type="text/css" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css?v=3.3.0.10" type="text/css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora" type="text/css" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css?v=3.3.0.10" type="text/css" /><link rel="stylesheet" href="https://journal.uii.ac.id/index/$$$call$$$/page/page/css?name=stylesheet" type="text/css" /><link rel="stylesheet" href="https://journal.uii.ac.id/plugins/themes/academic_pro3/styles/academic_pro.min.css?v=3.3.0.10" type="text/css" /><link rel="stylesheet" href="https://journal.uii.ac.id/plugins/themes/academic_pro3/styles/mobile_responsive.css?v=3.3.0.10" type="text/css" />
+
+
+
+
+</head>
+
+<body class="header_indexSite pkp_page_login pkp_op_index has_site_logo ">
+	<div class="pkp_structure_page">
+
+		<nav id="accessibility-nav" class="sr-only" role="navigation" aria-labelled-by="accessible-menu-label">
+			<div id="accessible-menu-label">
+				Quick jump to page content
+			</div>
+			<ul>
+			  <li><a href="#main-navigation">Main Navigation</a></li>
+			  <li><a href="#main-content">Main Content</a></li>
+			  <li><a href="#sidebar">Sidebar</a></li>
+			</ul>
+		</nav>
+
+				<header class="navbar navbar-default box-shadow background-white" id="headerNavigationContainer" role="banner">
+
+						<div class="user_navigation">
+			<div class="container">
+				<div class="row">
+									<button type="button" class="navbar-toggle collapsed pull-left" data-toggle="collapse" data-target="#nav-menu" aria-expanded="false" aria-controls="navbar">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<nav aria-label="User Navigation" class="pull-right">
+						
+				<ul id="navigationUser" class="nav nav-pills tab-list pull-right">
+														<li class="">
+				<a href="https://journal.uii.ac.id/index/user/register">
+					Register
+									</a>
+							</li>
+														<li class="">
+				<a href="https://journal.uii.ac.id/index/login">
+					Login
+									</a>
+							</li>
+										</ul>
+	
+					</nav>
+				</div><!-- .row -->
+			</div><!-- .container-fluid -->
+			</div>
+
+
+			<div class="site_header">
+			<div class="container">
+
+				<div class="navbar-header  row display-flex">
+
+					
+
+																
+						<h1 class="site-name ">
+					
+													<span class="logo_small">
+							<img  src="https://journal.uii.ac.id/public/site/pageHeaderTitleImage_en_US.png" alt="Header Logo">					
+							</span>
+						
+											
+													<a href="															https://journal.uii.ac.id/index
+													" class="navbar-brand">Journal Portal - Universitas Islam Indonesia</a>
+																	</h1>
+					
+				</div>
+
+								
+									<nav id="nav-menu" class="navbar-collapse collapse" aria-label="Site Navigation">
+																	
+				
+				
+
+																			<div class="pull-md-right search_input">
+								
+ <a href="https://journal.uii.ac.id/index/search/search"> <button type="submit" class="btn btn-default"><i class="fa fa-search"> </i> Search</button> </a>
+
+							</div>
+											</nav>
+				
+			</div><!-- .pkp_head_wrapper -->
+
+			</div>
+
+
+			<div class="header_shadow"></div>
+
+
+		</header><!-- .pkp_structure_head -->
+
+
+
+		<div class="row">
+
+
+		
+
+
+
+			
+
+
+		</div>	
+
+			
+
+
+				<div class="pkp_structure_content container main_content">
+			<main class="pkp_structure_main col-xs-12 col-sm-12  col-md-12  index_page" role="main">
+
+
+<div id="main-content" class="page page_login">
+	
+	<nav class="cmp_breadcrumbs" role="navigation" aria-label="You are here:">
+	<ol class="breadcrumb">
+		<li>
+			<a href="https://journal.uii.ac.id/index/index">
+				Home
+			</a>
+		</li>
+		<li class="active">
+							Login
+					</li>
+	</ol>
+</nav>
+
+		
+	<form class="pkp_form login" id="login" method="post" action="https://journal.uii.ac.id/index/login/signIn">
+		<input type="hidden" name="csrfToken" value="03a42ba96f143ee390129899360cd15e">
+		<input type="hidden" name="source" value="/index.php/jsi/article/download/25442/13684" />
+
+		
+		<div class="form-group">
+			<label for="login-username">
+				Username
+			</label>
+			<input type="text" name="username" class="form-control" id="login-username" placeholder="Username" value="" maxlenght="32" required>
+		</div>
+
+		<div class="form-group">
+			<label for="login-password">
+				Password
+			</label>
+			<input type="password" name="password" class="form-control" id="login-password" placeholder="Password" password="true" maxlength="32" required="$passwordRequired">
+		</div>
+
+		<div class="form-group">
+			<a href="https://journal.uii.ac.id/index/login/lostPassword">
+				Forgot your password?
+			</a>
+		</div>
+
+		<div class="checkbox">
+			<label>
+				<input type="checkbox" name="remember" id="remember" value="1" checked="$remember"> Keep me logged in
+			</label>
+		</div>
+
+		<div class="buttons">
+			<button type="submit" class="btn btn-primary">
+				Login
+			</button>
+
+											<a class="btn btn-default register-button" href="https://journal.uii.ac.id/index/user/register?source=%2Findex.php%2Fjsi%2Farticle%2Fdownload%2F25442%2F13684" role="button">
+					Register
+				</a>
+					</div>
+	</form>
+</div><!-- .page -->
+
+
+
+	</main>
+
+
+	</div><!-- pkp_structure_content -->
+
+	
+
+	<div class="container list_of_index">
+		<div class="col-md-12 indexed_by hidden">
+		
+		</div>
+	</div>
+
+
+	<div class="footer_border"></div>
+	<footer id="footer" class="footer" role="contentinfo">
+		
+
+
+
+		<div class="container-fluid no-padding-left no-padding-right">
+
+			
+				
+				
+				
+				
+			
+
+			<span class="hidden"> Ver 1.4 : openjournaltheme.com </span>
+
+
+		</div><!-- .container -->
+	</footer>
+</div><!-- pkp_structure_page -->
+
+<script src="https://journal.uii.ac.id/lib/pkp/lib/vendor/components/jquery/jquery.min.js?v=3.3.0.10" type="text/javascript"></script><script src="https://journal.uii.ac.id/lib/pkp/lib/vendor/components/jqueryui/jquery-ui.min.js?v=3.3.0.10" type="text/javascript"></script><script src="https://journal.uii.ac.id/lib/pkp/js/lib/jquery/plugins/jquery.tag-it.js?v=3.3.0.10" type="text/javascript"></script><script src="https://journal.uii.ac.id/plugins/themes/academic_pro3/bootstrap/js/bootstrap.min.js?v=3.3.0.10" type="text/javascript"></script><script src="https://journal.uii.ac.id/plugins/themes/academic_pro3/js/lib/sticky.min.js?v=3.3.0.10" type="text/javascript"></script><script src="https://journal.uii.ac.id/plugins/themes/academic_pro3/js/lib/readmore.min.js?v=3.3.0.10" type="text/javascript"></script><script src="https://journal.uii.ac.id/plugins/themes/academic_pro3/js/lib/jats.toc.min.js?v=3.3.0.10" type="text/javascript"></script><script src="https://journal.uii.ac.id/plugins/themes/academic_pro3/js/app.js?v=3.3.0.10" type="text/javascript"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js?v=3.3.0.10" type="text/javascript"></script>
+
+
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9f65b7c38ea640fa',t:'MTc3Nzg3ODk2Mw=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>

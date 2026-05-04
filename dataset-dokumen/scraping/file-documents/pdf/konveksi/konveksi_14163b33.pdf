@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en-US" xml:lang="en-US">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>
+		Login
+					</title>
+
+	
+<meta name="generator" content="Open Journal Systems 3.3.0.21" />
+	<link rel="stylesheet" href="https://e-journal.upr.ac.id/index.php/index/$$$call$$$/page/page/css?name=stylesheet" type="text/css" /><link rel="stylesheet" href="https://e-journal.upr.ac.id/index.php/index/$$$call$$$/page/page/css?name=font" type="text/css" /><link rel="stylesheet" href="https://e-journal.upr.ac.id/lib/pkp/styles/fontawesome/fontawesome.css?v=3.3.0.21" type="text/css" /><link rel="stylesheet" href="https://e-journal.upr.ac.id/public/site/styleSheet.css?v=3.3.0.21" type="text/css" />
+</head>
+<body class="pkp_page_login pkp_op_index has_site_logo" dir="ltr">
+
+	<div class="pkp_structure_page">
+
+				<header class="pkp_structure_head" id="headerNavigationContainer" role="banner">
+						
+ <nav class="cmp_skip_to_content" aria-label="Jump to content links">
+	<a href="#pkp_content_main">Skip to main content</a>
+	<a href="#siteNav">Skip to main navigation menu</a>
+		<a href="#pkp_content_footer">Skip to site footer</a>
+</nav>
+
+			<div class="pkp_head_wrapper">
+
+				<div class="pkp_site_name_wrapper">
+					<button class="pkp_site_nav_toggle">
+						<span>Open Menu</span>
+					</button>
+										<div class="pkp_site_name">
+																<a href="						https://e-journal.upr.ac.id/index.php/index/index
+					" class="is_img">
+							<img src="https://e-journal.upr.ac.id/public/site/pageHeaderTitleImage_en_US.png" width="420" height="100"  />
+						</a>
+										</div>
+				</div>
+
+				
+				<nav class="pkp_site_nav_menu" aria-label="Site Navigation">
+					<a id="siteNav"></a>
+					<div class="pkp_navigation_primary_row">
+						<div class="pkp_navigation_primary_wrapper">
+																			
+				
+
+																				</div>
+					</div>
+					<div class="pkp_navigation_user_wrapper" id="navigationUserWrapper">
+							<ul id="navigationUser" class="pkp_navigation_user pkp_nav_list">
+								<li class="profile">
+				<a href="http://e-journal.upr.ac.id/index.php/index">
+					Beranda
+				</a>
+							</li>
+								<li class="profile">
+				<a href="https://e-journal.upr.ac.id/index.php/index/user/register">
+					Register
+				</a>
+							</li>
+								<li class="profile">
+				<a href="https://e-journal.upr.ac.id/index.php/index/login">
+					Login
+				</a>
+							</li>
+																	</ul>
+
+					</div>
+				</nav>
+			</div><!-- .pkp_head_wrapper -->
+		</header><!-- .pkp_structure_head -->
+
+						<div class="pkp_structure_content has_sidebar">
+			<div class="pkp_structure_main" role="main">
+				<a id="pkp_content_main"></a>
+
+<div class="page page_login">
+	<nav class="cmp_breadcrumbs" role="navigation" aria-label="You are here:">
+	<ol>
+		<li>
+			<a href="https://e-journal.upr.ac.id/index.php/index/index">
+				Home
+			</a>
+			<span class="separator">/</span>
+		</li>
+		<li class="current">
+			<span aria-current="page">
+									Login
+							</span>
+		</li>
+	</ol>
+</nav>
+
+	<h1>
+		Login
+	</h1>
+
+	<p>
+		Required fields are marked with an asterisk: <abbr class="required" title="required">*</abbr>
+	</p>
+		
+	<form class="cmp_form cmp_form login" id="login" method="post" action="https://e-journal.upr.ac.id/index.php/index/login/signIn">
+		<input type="hidden" name="csrfToken" value="370bf1d73ed6b691c9e3351268120730" />
+
+		
+		<input type="hidden" name="source" value="/index.php/JPPE/article/download/12174/4809" />
+
+		<fieldset class="fields">
+			<legend class="pkp_screen_reader">Login</legend>
+			<div class="username">
+				<label>
+					<span class="label">
+						Username
+						<span class="required" aria-hidden="true">*</span>
+						<span class="pkp_screen_reader">
+							Required
+						</span>
+					</span>
+					<input type="text" name="username" id="username" value="" maxlength="32" required aria-required="true">
+				</label>
+			</div>
+			<div class="password">
+				<label>
+					<span class="label">
+						Password
+						<span class="required" aria-hidden="true">*</span>
+						<span class="pkp_screen_reader">
+							Required
+						</span>
+					</span>
+					<input type="password" name="password" id="password" value="" password="true" maxlength="32" required aria-required="true">
+					<a href="https://e-journal.upr.ac.id/index.php/index/login/lostPassword">
+						Forgot your password?
+					</a>
+				</label>
+			</div>
+			<div class="remember checkbox">
+				<label>
+					<input type="checkbox" name="remember" id="remember" value="1" checked="$remember">
+					<span class="label">
+						Keep me logged in
+					</span>
+				</label>
+			</div>
+			<div class="buttons">
+				<button class="submit" type="submit">
+					Login
+				</button>
+
+														<a href="https://e-journal.upr.ac.id/index.php/index/user/register?source=%2Findex.php%2FJPPE%2Farticle%2Fdownload%2F12174%2F4809" class="register">
+						Register
+					</a>
+							</div>
+		</fieldset>
+	</form>
+</div><!-- .page -->
+
+	</div><!-- pkp_structure_main -->
+
+									<div class="pkp_structure_sidebar left" role="complementary" aria-label="Sidebar">
+				<div class="pkp_block block_custom" id="customblock-login">
+	<h2 class="title pkp_screen_reader"></h2>
+	<div class="content">
+		<p style="padding: 10px; border-bottom: 1px solid #aaa; background: #128b3c; ; color: white;"><span style="font-size: small; font-family: 'arial black', 'avant garde';">LOGIN</span></p>
+<div class="page page_login"><form id="login" class="cmp_form cmp_form login" action="https://e-journal.upr.ac.id/index.php/index/login/signIn" method="post"><input name="csrfToken" type="hidden" value="3a78327fee0735af31a132dfa3370568"> <input name="source" type="hidden" value=""><fieldset class="fields">
+<div class="username"><label> <span class="label"> Username <span class="required">*</span> <span class="pkp_screen_reader"> Required </span> </span> <input id="username" maxlength="32" name="username" required="" type="text" value="journal" aria-required="true"> </label></div>
+<div class="password"><label> <span class="label"> Password <span class="required">*</span> <span class="pkp_screen_reader"> Required </span> </span> <input id="password" maxlength="32" name="password" required="" type="password" value="" aria-required="true"> <a href="https://e-journal.upr.ac.id/index.php/index/login/lostPassword"> Forgot your password? </a> </label></div>
+<div class="remember checkbox"><label> <input id="remember" checked="checked" name="remember" type="checkbox" value="1"> <span class="label"> Keep me logged in </span> </label></div>
+<div class="buttons"><button class="submit" type="submit"> Login </button></div>
+</fieldset></form></div>
+	</div>
+</div>
+<div class="pkp_block block_custom" id="customblock-sidebar">
+	<h2 class="title pkp_screen_reader"></h2>
+	<div class="content">
+		<p><a href="http://arjuna.ristekdikti.go.id/" target="_blank" rel="noopener"><img src="/public/site/images/journal/arjuna4.jpg" width="177" height="43"></a></p>
+<p><a href="http://issn.lipi.go.id/" target="_blank" rel="noopener"><img src="/public/site/images/journal/lipi5.jpg" width="176" height="44"></a></p>
+<p><a href="http://simlitabmas.ristekdikti.go.id/" target="_blank" rel="noopener"><img src="/public/site/images/journal/mas3.jpg" width="176" height="44"></a></p>
+<p><a href="http://www.doi.org/" target="_blank" rel="noopener"><img src="/public/site/images/journal/DOI4.gif" width="176" height="44"></a></p>
+<p><a href="https://scholar.google.com/citations?hl=en&amp;user=eTYPAtMAAAAJ" target="_blank" rel="noopener"><img src="/public/site/images/journal/scholar5.png" width="180" height="45"></a></p>
+<p><a href="https://doaj.org/" target="_blank" rel="noopener"><img src="/public/site/images/journal/doaj3.png" width="180" height="45"></a></p>
+<p><a href="http://garuda.ristekdikti.go.id/" target="_blank" rel="noopener"><img src="/public/site/images/journal/garuda3.png" width="180" height="45"></a></p>
+<p><a href="https://www.base-search.net/Search/Results?type=all&amp;lookfor=e-journal.upr.ac.id&amp;ling=1&amp;oaboost=1&amp;name=&amp;thes=&amp;refid=dcresen&amp;newsearch=1" target="_blank" rel="noopener"><img src="/public/site/images/journal/base1.gif" width="180" height="45"></a></p>
+<p><a href="https://info.flagcounter.com/it8V"><img src="https://s11.flagcounter.com/count2/it8V/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" width="172" height="69" border="0"></a></p>
+<p>&nbsp;</p>
+	</div>
+</div>
+
+			</div><!-- pkp_sidebar.left -->
+			</div><!-- pkp_structure_content -->
+
+<div class="pkp_structure_footer_wrapper" role="contentinfo">
+	<a id="pkp_content_footer"></a>
+
+	<div class="pkp_structure_footer">
+
+					<div class="pkp_footer_content">
+				<p>e-Journal Universitas Palangka Raya ini dikelola oleh UPT. Teknologi Informasi dan Komunikasi Universitas Palangka Raya, ejournal@upr.ac.id email-tik@upr.ac.id</p>
+			</div>
+		
+		<div class="pkp_brand_footer" role="complementary">
+			<a href="https://e-journal.upr.ac.id/index.php/index/about/aboutThisPublishingSystem">
+				<img alt="More information about the publishing system, Platform and Workflow by OJS/PKP." src="https://e-journal.upr.ac.id/templates/images/ojs_brand.png">
+			</a>
+		</div>
+	</div>
+</div><!-- pkp_structure_footer_wrapper -->
+
+</div><!-- pkp_structure_page -->
+
+<script src="https://e-journal.upr.ac.id/lib/pkp/lib/vendor/components/jquery/jquery.min.js?v=3.3.0.21" type="text/javascript"></script><script src="https://e-journal.upr.ac.id/lib/pkp/lib/vendor/components/jqueryui/jquery-ui.min.js?v=3.3.0.21" type="text/javascript"></script><script src="https://e-journal.upr.ac.id/plugins/themes/default/js/lib/popper/popper.js?v=3.3.0.21" type="text/javascript"></script><script src="https://e-journal.upr.ac.id/plugins/themes/default/js/lib/bootstrap/util.js?v=3.3.0.21" type="text/javascript"></script><script src="https://e-journal.upr.ac.id/plugins/themes/default/js/lib/bootstrap/dropdown.js?v=3.3.0.21" type="text/javascript"></script><script src="https://e-journal.upr.ac.id/plugins/themes/default/js/main.js?v=3.3.0.21" type="text/javascript"></script>
+
+
+</body>
+</html>

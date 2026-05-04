@@ -1,0 +1,553 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>SEIKO : Journal of Management & Business</title>
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="generator" content="Open Journal Systems 2.4.8.2" />
+	
+		<link rel="stylesheet" href="https://journal.stieamkop.ac.id/lib/pkp/styles/pkp.css" type="text/css" />
+	<link rel="stylesheet" href="https://journal.stieamkop.ac.id/lib/pkp/styles/common.css" type="text/css" />
+	<link rel="stylesheet" href="https://journal.stieamkop.ac.id/styles/common.css" type="text/css" />
+	<link rel="stylesheet" href="https://journal.stieamkop.ac.id/styles/compiled.css" type="text/css" />
+
+	<!-- Base Jquery -->
+	<script type="text/javascript" src="//www.google.com/jsapi"></script>
+		<script type="text/javascript">
+			<!--
+			// Provide a local fallback if the CDN cannot be reached
+			if (typeof google == 'undefined') {
+				document.write(unescape("%3Cscript src='https://journal.stieamkop.ac.id/lib/pkp/js/lib/jquery/jquery.min.js' type='text/javascript'%3E%3C/script%3E"));
+				document.write(unescape("%3Cscript src='https://journal.stieamkop.ac.id/lib/pkp/js/lib/jquery/plugins/jqueryUi.min.js' type='text/javascript'%3E%3C/script%3E"));
+			} else {
+				google.load("jquery", "1.4.4");
+				google.load("jqueryui", "1.8.6");
+			}
+			// -->
+		</script>
+	
+	
+	
+	<link rel="stylesheet" href="https://journal.stieamkop.ac.id/styles/sidebar.css" type="text/css" />		<link rel="stylesheet" href="https://journal.stieamkop.ac.id/styles/rightSidebar.css" type="text/css" />	
+			<link rel="stylesheet" href="https://journal.stieamkop.ac.id/plugins/themes/modernTheme/modernThemePlugin.css" type="text/css" />
+			<link rel="stylesheet" href="https://journal.stieamkop.ac.id/plugins/blocks/languageToggle/styles/languageToggle.css" type="text/css" />
+	
+	<!-- Default global locale keys for JavaScript -->
+	
+<script type="text/javascript">
+	jQuery.pkp = jQuery.pkp || { };
+	jQuery.pkp.locale = { };
+			
+				jQuery.pkp.locale.form_dataHasChanged = 'The data on this form has changed. Continue anyway?';
+	</script>
+	<!-- Compiled scripts -->
+			
+<script type="text/javascript" src="https://journal.stieamkop.ac.id/lib/pkp/js/lib/jquery/plugins/jquery.tag-it.js"></script>
+<script type="text/javascript" src="https://journal.stieamkop.ac.id/lib/pkp/js/lib/jquery/plugins/jquery.cookie.js"></script>
+
+<script type="text/javascript" src="https://journal.stieamkop.ac.id/lib/pkp/js/functions/fontController.js"></script>
+<script type="text/javascript" src="https://journal.stieamkop.ac.id/lib/pkp/js/functions/general.js"></script>
+<script type="text/javascript" src="https://journal.stieamkop.ac.id/lib/pkp/js/functions/jqueryValidatorI18n.js"></script>
+
+<script type="text/javascript" src="https://journal.stieamkop.ac.id/lib/pkp/js/classes/Helper.js"></script>
+<script type="text/javascript" src="https://journal.stieamkop.ac.id/lib/pkp/js/classes/ObjectProxy.js"></script>
+<script type="text/javascript" src="https://journal.stieamkop.ac.id/lib/pkp/js/classes/Handler.js"></script>
+<script type="text/javascript" src="https://journal.stieamkop.ac.id/lib/pkp/js/classes/linkAction/LinkActionRequest.js"></script>
+<script type="text/javascript" src="https://journal.stieamkop.ac.id/lib/pkp/js/classes/features/Feature.js"></script>
+
+<script type="text/javascript" src="https://journal.stieamkop.ac.id/lib/pkp/js/controllers/SiteHandler.js"></script><!-- Included only for namespace definition -->
+<script type="text/javascript" src="https://journal.stieamkop.ac.id/lib/pkp/js/controllers/UrlInDivHandler.js"></script>
+<script type="text/javascript" src="https://journal.stieamkop.ac.id/lib/pkp/js/controllers/AutocompleteHandler.js"></script>
+<script type="text/javascript" src="https://journal.stieamkop.ac.id/lib/pkp/js/controllers/ExtrasOnDemandHandler.js"></script>
+<script type="text/javascript" src="https://journal.stieamkop.ac.id/lib/pkp/js/controllers/form/FormHandler.js"></script>
+<script type="text/javascript" src="https://journal.stieamkop.ac.id/lib/pkp/js/controllers/form/AjaxFormHandler.js"></script>
+<script type="text/javascript" src="https://journal.stieamkop.ac.id/lib/pkp/js/controllers/form/ClientFormHandler.js"></script>
+<script type="text/javascript" src="https://journal.stieamkop.ac.id/lib/pkp/js/controllers/grid/GridHandler.js"></script>
+<script type="text/javascript" src="https://journal.stieamkop.ac.id/lib/pkp/js/controllers/linkAction/LinkActionHandler.js"></script>
+
+<script type="text/javascript" src="https://journal.stieamkop.ac.id/js/pages/search/SearchFormHandler.js"></script>
+<script type="text/javascript" src="https://journal.stieamkop.ac.id/js/statistics/ReportGeneratorFormHandler.js"></script>
+<script type="text/javascript" src="https://journal.stieamkop.ac.id/plugins/generic/lucene/js/LuceneAutocompleteHandler.js"></script>
+
+<script type="text/javascript" src="https://journal.stieamkop.ac.id/lib/pkp/js/lib/jquery/plugins/jquery.pkp.js"></script>	
+	<!-- Form validation -->
+	<script type="text/javascript" src="https://journal.stieamkop.ac.id/lib/pkp/js/lib/jquery/plugins/validate/jquery.validate.js"></script>
+	<script type="text/javascript">
+		<!--
+		// initialise plugins
+		
+		$(function(){
+			jqueryValidatorI18n("https://journal.stieamkop.ac.id", "en_US"); // include the appropriate validation localization
+			
+			$(".tagit").live('click', function() {
+				$(this).find('input').focus();
+			});
+		});
+		// -->
+		
+	</script>
+
+		<script language="javascript" type="text/javascript" src="https://journal.stieamkop.ac.id/plugins/themes/modernTheme/js/modernThemeSiteHandler.js"></script><link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css' /><link href='http://fonts.googleapis.com/css?family=Open+Sans:700,400' rel='stylesheet' type='text/css' />
+</head>
+<script type="text/javascript"> 
+				$(function() { 
+					$("body").pkpHandler("$.pkp.plugins.themes.modern.ModernThemeSiteHandler"); 
+				}); 
+			</script><body id="pkp-common-openJournalSystems">
+<div id="container">
+
+<div id="header">
+<div id="headerTitle">
+<h1>
+	<img src="https://journal.stieamkop.ac.id/public/journals/2/homeHeaderTitleImage_en_US.png" width="2593" height="360" alt="Page Header" />
+</h1>
+</div>
+</div>
+
+<div id="body">
+
+	<div id="sidebar">
+							<div id="rightSidebar">
+				<div class="block custom" id="customblock-Quick-Menu">
+	<p style="padding: 10px; border-bottom: 1px solid #aaa; background: #426278; ; color: white;"><span style="font-size: large;">Quick Menu</span></p>
+<table width="100%" cellspacing="5" cellpadding="10" align="left">
+<tbody>
+<tr>
+<td style="height: 20px; padding-top: 3px; vertical-align: middle; border-bottom: 1px solid #ffffff; background-color: #00bfff; text-align: left;"><span style="font-family: arial, helvetica, sans-serif; font-size: small;"><a href="/index.php/seiko/about/editorialPolicies#focusAndScope"><span style="color: #8b310c;"><strong>FOCUS AND SCOPE</strong></span></a></span></td>
+</tr>
+<tr>
+<td style="height: 20px; padding-top: 3px; vertical-align: middle; border-bottom: 1px solid #ffffff; background-color: #00bfff; text-align: left;"><a title="Editorial Team" href="https://journal.stieamkop.ac.id/index.php/seiko/pages/view/Editorial_Team" target="_blank" rel="noopener"><span style="color: #8b310c; font-family: arial, helvetica, sans-serif; font-size: small;"><strong>EDITORIAL TEAM</strong></span></a></td>
+</tr>
+<tr>
+<td style="height: 20px; padding-top: 3px; vertical-align: middle; border-bottom: 1px solid #ffffff; background-color: #00bfff; text-align: left;"><span style="font-size: small;"><a href="https://journal.stieamkop.ac.id/index.php/seiko/pages/view/Reviewer" target="_blank" rel="noopener"><span style="font-family: arial, helvetica, sans-serif;"><span style="color: #8b310c;"><strong>PEER REVIEWERS</strong></span></span></a></span></td>
+</tr>
+<tr>
+<td style="height: 20px; padding-top: 3px; vertical-align: middle; border-bottom: 1px solid #ffffff; background-color: #00bfff; text-align: left;"><span style="font-family: arial, helvetica, sans-serif; font-size: small;"><a href="https://journal.stieamkop.ac.id/index.php/seiko/pages/view/Publication_Ethics"><span style="color: #8b310c;"><strong>PUBLISHING ETHICS</strong></span></a></span></td>
+</tr>
+<tr>
+<td style="height: 20px; padding-top: 3px; vertical-align: middle; border-bottom: 1px solid #ffffff; background-color: #00bfff; text-align: left;"><span style="font-family: arial, helvetica, sans-serif; font-size: small;"><a href="https://journal.stieamkop.ac.id/index.php/seiko/pages/view/AUTHOR_GUIDELINES"><span style="color: #8b310c;"><strong>AUTHOR GUIDELINES</strong></span></a></span></td>
+</tr>
+<tr>
+<td style="height: 20px; padding-top: 3px; vertical-align: middle; border-bottom: 1px solid #ffffff; background-color: #00bfff; text-align: left;"><span style="font-family: arial, helvetica, sans-serif; font-size: small;"><a href="/index.php/seiko/about/submissions#onlineSubmissions"><span style="color: #8b310c;"><strong>ONLINE SUBMISSIONS</strong></span></a></span></td>
+</tr>
+<tr>
+<td style="height: 20px; padding-top: 3px; vertical-align: middle; border-bottom: 1px solid #ffffff; background-color: #00bfff; text-align: left;"><span style="font-family: arial, helvetica, sans-serif; font-size: small;"><a href="/index.php/seiko/about/editorialPolicies#publicationFrequency"><span style="color: #8b310c;"><strong>PUBLICATION FREQUENCY</strong></span></a></span></td>
+</tr>
+<tr>
+<td style="height: 20px; padding-top: 3px; vertical-align: middle; border-bottom: 1px solid #ffffff; background-color: #00bfff; text-align: left;"><span style="font-family: arial, helvetica, sans-serif; font-size: small;"><a href="/index.php/seiko/pages/view/Indexing_and_Abstracting"><span style="color: #8b310c;"><strong>INDEXING & ABSTRACT</strong></span></a></span></td>
+</tr>
+<tr>
+<td style="height: 20px; padding-top: 3px; vertical-align: middle; border-bottom: 1px solid #ffffff; background-color: #00bfff; text-align: left;"><span style="font-family: arial, helvetica, sans-serif; font-size: small;"><a href="https://journal.stieamkop.ac.id/index.php/seiko/pages/view/AuthorFees"><span style="color: #8b310c;"><strong>AUTHOR FEES</strong></span></a></span></td>
+</tr>
+<tr>
+<td style="height: 20px; padding-top: 3px; vertical-align: middle; border-bottom: 1px solid #ffffff; background-color: #00bfff; text-align: left;"><span style="font-family: arial, helvetica, sans-serif; font-size: small;"><a href="/index.php/seiko/about/contact"><span style="color: #8b310c;"><strong>CONTACT</strong></span></a></span></td>
+</tr>
+<tr>
+<td style="height: 20px; padding-top: 3px; vertical-align: middle; border-bottom: 1px solid #ffffff; background-color: #00bfff; text-align: left;"><span style="font-family: arial, helvetica, sans-serif; font-size: small;"><a href="http://statcounter.com/p11796285/summary/?guest=1"><span style="color: #8b310c;"><strong>VISITOR STATISTICS</strong></span></a></span></td>
+</tr>
+</tbody>
+</table>
+</div>	<div class="block custom" id="customblock-Template">
+	<p>&nbsp;</p>
+<p style="color: white; background-color: #426278; text-align: center;"><span style="font-size: large;">Template</span></p>
+<p><a href="https://drive.google.com/file/d/11asPX4aIRGJRn71WcO3fzWt5mgI2XYCT/view?usp=sharing" rel="nofollow" target="_blank"><br /><img style="display: block; margin-left: auto; margin-right: auto;" src="https://4.bp.blogspot.com/-vdnFjiOX36w/W9gLG9Wg7JI/AAAAAAAABOA/y4bP-J-KXxIuNqlmrh516TzOym3LKwYoACLcBGAs/s1600/Template_jurnal_amkop.png" alt="" width="190" height="90" border="0" data-original-height="180" data-original-width="396" /></a></p>
+</div>	<div class="block custom" id="customblock-Reference-Tools">
+	<p style="color: white; background-color: #8b310c; text-align: center;"><span style="font-size: large;">Tools</span></p>
+<p style="text-align: center;">&nbsp;</p>
+<p><a title="Cek Plagiat" href="www.turnitin.com/" target="_blank"><strong><img style="width: 190px; height: 70px; display: block; margin-left: auto; margin-right: auto;" src="https://3.bp.blogspot.com/-t3LaQP1Hv1o/XeqGiyrFtGI/AAAAAAAABgo/bj5B4lO_s_oSByzqK3QXPy_0zfR7h5d0gCLcBGAsYHQ/s1600/Turnintin_amar.png" alt="Plagiarism Checker" /></strong></a></p>
+<p><a href="https://www.mendeley.com/" target="_blank"><img style="width: 150px; height: 70px; display: block; margin-left: auto; margin-right: auto;" src="https://2.bp.blogspot.com/-KuGJfs6tWtM/W5-jdOzXYrI/AAAAAAAABKw/jVHMufcOQSMhLTv170ZSnep_SuHhoL5vACLcBGAs/s1600/Mandeley_amar.png" alt="" width="150" height="42" /></a></p>
+<p><a href="https://endnote.com/" target="_blank"><img style="width: 150px; height: 70px; display: block; margin-left: auto; margin-right: auto;" src="https://4.bp.blogspot.com/-uEz7g3x0OYE/W9XdBJ9mNqI/AAAAAAAALGQ/hvBrT2YjvPIIRaaDJjLjaRiDRwQ6hCFNACLcBGAs/s1600/endnote_amar.png" alt="" width="150" height="42" /></a></p>
+</div>	<div class="block custom" id="customblock-Sponsoring-Organization">
+	<img border="0" src="https://4.bp.blogspot.com/-B1C7crO3kYc/W9gWGvBCA-I/AAAAAAAABO8/3rumL_fuOO8K6DrES-iAVX2aqHd_5CTKACLcBGAs/s1600/amar.png" width="200" height="197" data-original-width="1402" data-original-height="1382" />
+</div>	<div class="block custom" id="customblock-PRINTED-ONLINE-ISSN">
+	<div style="background-color: #8b310c; color: white; text-align: center;">
+<span style="font-size: large;">Printed &amp; Online ISSN</span></div>
+<div style="text-align: center;">
+<br /></div>
+<img border="0" data-original-height="1382" data-original-width="1402" height="197" src="https://2.bp.blogspot.com/-QYLe1VbglQA/XCDuaYXJSzI/AAAAAAAABVA/bdd-gBHN_lc0rrXjw9044v_BiVoO6muiACLcBGAs/s1600/Barcode%2BISSN.png" width="200" />
+</div>	<div class="block" id="sidebarUser">
+			<span class="blockTitle">User</span>
+	
+												<form method="post" action="https://journal.stieamkop.ac.id/index.php/seiko/login/signIn">
+					<table>
+						<tr>
+							<td><label for="sidebar-username">Username</label></td>
+							<td><input type="text" id="sidebar-username" name="username" value="" size="12" maxlength="32" class="textField" /></td>
+						</tr>
+						<tr>
+							<td><label for="sidebar-password">Password</label></td>
+							<td><input type="password" id="sidebar-password" name="password" value="" size="12" class="textField" /></td>
+						</tr>
+						<tr>
+							<td colspan="2"><input type="checkbox" id="remember" name="remember" value="1" /> <label for="remember">Remember me</label></td>
+						</tr>
+						<tr>
+							<td colspan="2"><input type="submit" value="Login" class="button" /></td>
+						</tr>
+					</table>
+				</form>
+						</div> <div class="block" id="notification">
+	<span class="blockTitle">Notifications</span>
+	<ul>
+					<li><a href="https://journal.stieamkop.ac.id/index.php/seiko/notification">View</a></li>
+			<li><a href="https://journal.stieamkop.ac.id/index.php/seiko/notification/subscribeMailList">Subscribe</a></li>
+			</ul>
+</div>
+
+<div class="block" id="sidebarLanguageToggle">
+	<script type="text/javascript">
+		<!--
+		function changeLanguage() {
+			var e = document.getElementById('languageSelect');
+			var new_locale = e.options[e.selectedIndex].value;
+
+			var redirect_url = 'https://journal.stieamkop.ac.id/index.php/seiko/user/setLocale/NEW_LOCALE?source=%2Findex.php%2Fseiko%2Findex';
+			redirect_url = redirect_url.replace("NEW_LOCALE", new_locale);
+
+			window.location.href = redirect_url;
+		}
+		//-->
+	</script>
+	<span class="blockTitle">Language</span>
+	<form action="#">
+		<label for="languageSelect">Select Language</label>
+		<select id="languageSelect" size="1" name="locale" class="selectMenu"><option label="Bahasa Indonesia" value="id_ID">Bahasa Indonesia</option>
+<option label="English" value="en_US" selected="selected">English</option>
+</select>
+		<input type="submit" class="button" value="Submit" onclick="changeLanguage(); return false;" />
+	</form>
+</div>
+<div class="block" id="sidebarNavigation">
+	<span class="blockTitle">Journal Content</span>
+
+	
+	
+	<form id="simplesearchForm" action="https://journal.stieamkop.ac.id/index.php/seiko/index/search">
+				<table id="simpleSearchInput">
+			<tr>
+				<td>
+													<label for="simpleQuery">Search <br />
+					<input type="text" id="simpleQuery" name="simpleQuery" size="15" maxlength="255" value="" class="textField" /></label>
+								</td>
+			</tr>
+			<tr>
+				<td><label for="searchField">
+				Search Scope
+				<br />
+				<select id="searchField" name="searchField" size="1" class="selectMenu">
+					<option label="All" value="query">All</option>
+<option label="Authors" value="authors">Authors</option>
+<option label="Title" value="title">Title</option>
+<option label="Abstract" value="abstract">Abstract</option>
+<option label="Index terms" value="indexTerms">Index terms</option>
+<option label="Full Text" value="galleyFullText">Full Text</option>
+
+				</select></label>
+				</td>
+			</tr>
+			<tr>
+				<td><input type="submit" value="Search" class="button" /></td>
+			</tr>
+		</table>
+	</form>
+
+	<br />
+
+		<span class="blockSubtitle">Browse</span>
+	<ul>
+		<li><a href="https://journal.stieamkop.ac.id/index.php/seiko/issue/archive">By Issue</a></li>
+		<li><a href="https://journal.stieamkop.ac.id/index.php/seiko/search/authors">By Author</a></li>
+		<li><a href="https://journal.stieamkop.ac.id/index.php/seiko/search/titles">By Title</a></li>
+		
+					<li><a href="https://journal.stieamkop.ac.id/index.php/index">Other Journals</a></li>
+						</ul>
+	</div>
+
+<!-- Add javascript required for font sizer -->
+<script type="text/javascript">
+	<!--
+	$(function(){
+		fontSize("#sizer", "body", 9, 16, 32, ""); // Initialize the font sizer
+	});
+	// -->
+</script>
+
+<div class="block" id="sidebarFontSize" style="margin-bottom: 4px;">
+	<span class="blockTitle">Font Size</span>
+	<div id="sizer"></div>
+</div>
+<br /><div class="block" id="sidebarHelp">
+	<a class="blockTitle" href="javascript:openHelp('https://journal.stieamkop.ac.id/index.php/seiko/help/view/user/topic/000001')">Journal Help</a>
+</div><div class="block" id="sidebarWebFeed">
+	<span class="blockTitle">Current Issue</span>
+	<a href="https://journal.stieamkop.ac.id/index.php/seiko/gateway/plugin/WebFeedGatewayPlugin/atom">
+	<img src="https://journal.stieamkop.ac.id/plugins/generic/webFeed/templates/images/atom10_logo.gif" alt="Atom logo" border="0" /></a>
+	<br />
+	<a href="https://journal.stieamkop.ac.id/index.php/seiko/gateway/plugin/WebFeedGatewayPlugin/rss2">
+	<img src="https://journal.stieamkop.ac.id/plugins/generic/webFeed/templates/images/rss20_logo.gif" alt="RSS2 logo" border="0" /></a>
+	<br />
+	<a href="https://journal.stieamkop.ac.id/index.php/seiko/gateway/plugin/WebFeedGatewayPlugin/rss">
+	<img src="https://journal.stieamkop.ac.id/plugins/generic/webFeed/templates/images/rss10_logo.gif" alt="RSS1 logo" border="0" /></a>
+</div>
+			</div>
+			</div>
+
+<div id="main">
+<div id="navbar">
+	<ul class="menu">
+		<li id="home"><a href="https://journal.stieamkop.ac.id/index.php/seiko/index">Home</a></li>
+		<li id="about"><a href="https://journal.stieamkop.ac.id/index.php/seiko/about">About</a></li>
+
+					<li id="login"><a href="https://journal.stieamkop.ac.id/index.php/seiko/login">Login</a></li>
+							<li id="register"><a href="https://journal.stieamkop.ac.id/index.php/seiko/user/register">Register</a></li>
+												<li id="search"><a href="https://journal.stieamkop.ac.id/index.php/seiko/search">Search</a></li>
+		
+					<li id="current"><a href="https://journal.stieamkop.ac.id/index.php/seiko/issue/current">Current</a></li>
+			<li id="archives"><a href="https://journal.stieamkop.ac.id/index.php/seiko/issue/archive">Archives</a></li>
+		
+					<li id="announcements"><a href="https://journal.stieamkop.ac.id/index.php/seiko/announcement">Announcements</a></li>
+				
+
+								</ul>
+</div>
+<div id="breadcrumb">
+	<a href="https://journal.stieamkop.ac.id/index.php/seiko/index">Home</a> &gt;
+			<a href="https://journal.stieamkop.ac.id/index.php/seiko/index" class="current">Vol 9, No 2 (2026)</a></div>
+
+<h2>SEIKO : Journal of Management & Business</h2>
+
+
+<div id="content">
+
+
+	<div id="journalDescription"><img src="https://4.bp.blogspot.com/-xNBrw8i0hC0/W9gU1mWK3mI/AAAAAAAABOk/TMTNTiZnx9sVZKjvFIjaFDoJ0jAG7P70ACLcBGAs/s1600/amar_seiko.png" alt="" align="right"> <p align="justify"><strong>S E I K O : Journal of Management & Business</strong>, is published by Postgraduate STIE Amkop Makassar in 2017, with registered number ISSN : <a href="https://issn.brin.go.id/terbit/detail/1509254482" rel="nofollow" target="_blank">2598-831X</a> (Print) and ISSN : <a href="https://issn.brin.go.id/terbit/detail/1509246213" rel="nofollow" target="_blank">2598-8301</a> (Online), is a peer-reviewed journal published S E I K O : Journal of Management & Business published two times a year (July-December & January-Juny) by Postgraduate STIE Amkop Makassar.</p></div>
+
+
+
+
+<br />
+<div id="additionalHomeContent"><div id="additionalHomeContent">
+<p align="justify"><strong>S E I K O : Journal of Management &amp; Business</strong>invites manuscripts in the various topics include, but not limited to ;</p>
+<ul>
+<li>Functional areas of Marketing management,</li>
+<li>Finance and management accounting,</li>
+<li>Strategic management,</li>
+<li>Operation, logistic and supply chain management,</li>
+<li>Human resource management,</li>
+<li>E-business,</li>
+<li>Knowledge management,</li>
+<li>Management information system,</li>
+<li>International business,</li>
+<li>Quantitative and research method</li>
+<li>Tourism management,</li>
+<li>Business ethics, and</li>
+<li>Entrepreneurship.</li>
+</ul>
+<p align="justify">The articles published in <strong>S E I K O : Journal of Management &amp; Business</strong> have been double blind-reviewed by peer reviewers. The decision on whether the scientific article is accepted or not in this journal will be the Editorial Board&rsquo;s right based on peer reviewer's recomendation.</p>
+<p align="justify">Please read and understand the author guidelines thoroughly. Author who submits a manuscript to the editors of <strong>S E I K O : Journal of Management &amp; Business </strong> should comply with the author guidelines. If the submitted manuscript does not comply with the guidelines or using a different format, it will be rejected by the editorial team before being reviewed. Editorial Team will only accept a manuscript that meets the specified formatting requirements.</p>
+.</div>
+<div id="pageFooter">&nbsp;</div>
+<div class="separator" style="clear: both; text-align: justify;"><img src="https://sinta.kemdikbud.go.id/badge/journal?id=4616" alt="" width="50%" /> <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+<div class="separator" style="clear: both;"><a style="display: inline; padding: 1em 0px; text-align: center;" href="https://scholar.google.co.id/citations?user=xX7dJxEAAAAJ&amp;hl=id" target="_blank" rel="noopener"><img src="https://1.bp.blogspot.com/-WFqBmb1NFt4/YBUmzqpStnI/AAAAAAAACAs/_UXVHbYjZhU8NNHTQrEUy1suKWhJSnM4wCLcBGAsYHQ/w200-h75/Scholar.png" width="200" height="75" border="0" data-original-height="269" data-original-width="715" /></a><a style="display: inline; padding: 1em 0px; text-align: center;" href="https://garuda.ristekdikti.go.id/journal/view/12955" target="_blank" rel="noopener"><img src="https://1.bp.blogspot.com/-AeoHfLLaJ_g/YBUmzhJ3eiI/AAAAAAAACAo/zzhKrD0Iig4iuxKt8V79MouNIpU1eNSjACLcBGAsYHQ/w200-h75/Garuda.png" width="200" height="75" border="0" data-original-height="269" data-original-width="715" /></a>  <a style="display: inline; padding: 1em 0px; text-align: center;" href="https://sinta.kemdikbud.go.id/journals/profile/4616" target="_blank" rel="noopener"><img src="https://blogger.googleusercontent.com/img/a/AVvXsEiW1RgbaTrJaEWKlUBr9QiQTib_qknm6ahod8YjCXeKjQpw9B32xakO7t24EEigPnR-_bvrJJSjoAIcKy7Q0BE8T_9RVwZRg4sj7bJcLk9veklmyBpWYIVWCZQW7WB3AWSFvV_seSmgoGaZj7fnoM-rKKTzq8aCUGsRRrBtnt5jj8OFWiGyhQj9f0jF=s320" width="197" height="73" border="0" data-original-height="262" data-original-width="715" /></a></div>
+</div></div>
+
+		<div id="announcementsHome">
+		<h3>Announcements</h3>
+		<table class="announcements">
+	<tr>
+		<td colspan="2" class="headseparator">&nbsp;</td>
+	</tr>
+
+
+	<tr>
+		<td colspan="2" class="nodata">No announcements have been published.</td>
+	</tr>
+	<tr>
+		<td colspan="2" class="endseparator">&nbsp;</td>
+	</tr>
+</table>	
+		<table class="announcementsMore">
+			<tr>
+				<td><a href="https://journal.stieamkop.ac.id/index.php/seiko/announcement">More Announcements...</a></td>
+			</tr>
+		</table>
+	</div>
+
+		<br />
+	<h3>Vol 9, No 2 (2026)</h3>
+		<div id="issueDescription"></div>
+		<h3>Table of Contents</h3>
+	<h4 class="tocSectionTitle">Articles</h4>
+		
+				
+				
+				
+<table class="tocArticle">
+<tr valign="top">
+	<td class="tocArticleCoverImage">
+			</td>
+
+	
+
+	<td class="tocArticleTitleAuthors">
+		<div class="tocTitle">
+							<a href="https://journal.stieamkop.ac.id/index.php/seiko/article/view/11582">Kepemimpinan, Kompensasi, Kompetensi dan Kinerja Karyawan : Peran Mediasi Motivasi</a>
+					</div>
+		<div class="tocAuthors">
+												Leonardus Teguh Handoyo,									Suryatunnisak Suryatunnisak,									Legia Seki Yolanda,									Lingga Ramadhana Arfi									</div>
+	</td>
+
+	<td class="tocArticleGalleysPages">
+		<div class="tocGalleys">
+												<a href="https://journal.stieamkop.ac.id/index.php/seiko/article/view/11582/6584" class="file">Download PDF</a>
+																		</div>
+		<div class="tocPages">
+			01 - 12
+		</div>
+	</td>
+</tr>
+</table>
+
+		
+				
+				
+				
+<table class="tocArticle">
+<tr valign="top">
+	<td class="tocArticleCoverImage">
+			</td>
+
+	
+
+	<td class="tocArticleTitleAuthors">
+		<div class="tocTitle">
+							<a href="https://journal.stieamkop.ac.id/index.php/seiko/article/view/11656">Pengaruh Tanggungjawab, Pendidikan, Tingkat Pelayanan, Dan Komunikasi Terhadap Partisipasi Masyarakat Dalam Pembayaran Pbb-P2 (Survei Pada Wajib Pajak Kecamatan Grogol Kabupaten Sukoharjo)</a>
+					</div>
+		<div class="tocAuthors">
+												Febrian Giffary,									Eskasari Putri									</div>
+	</td>
+
+	<td class="tocArticleGalleysPages">
+		<div class="tocGalleys">
+												<a href="https://journal.stieamkop.ac.id/index.php/seiko/article/view/11656/6590" class="file">Download PDF</a>
+																		</div>
+		<div class="tocPages">
+			13 - 22
+		</div>
+	</td>
+</tr>
+</table>
+
+		
+				
+				
+				
+<table class="tocArticle">
+<tr valign="top">
+	<td class="tocArticleCoverImage">
+			</td>
+
+	
+
+	<td class="tocArticleTitleAuthors">
+		<div class="tocTitle">
+							<a href="https://journal.stieamkop.ac.id/index.php/seiko/article/view/11724">Analisis Dampak Harga Tiket Terjangkau terhadap Pengeluaran Konsumen di Taman Margasatwa Ragunan</a>
+					</div>
+		<div class="tocAuthors">
+												Febri Rahmat Abdullah,									Eman Sulaeman									</div>
+	</td>
+
+	<td class="tocArticleGalleysPages">
+		<div class="tocGalleys">
+												<a href="https://journal.stieamkop.ac.id/index.php/seiko/article/view/11724/6594" class="file">Download PDF</a>
+																		</div>
+		<div class="tocPages">
+			23 - 36
+		</div>
+	</td>
+</tr>
+</table>
+
+		
+				
+				
+				
+<table class="tocArticle">
+<tr valign="top">
+	<td class="tocArticleCoverImage">
+			</td>
+
+	
+
+	<td class="tocArticleTitleAuthors">
+		<div class="tocTitle">
+							<a href="https://journal.stieamkop.ac.id/index.php/seiko/article/view/11725">Pengaruh Stres Kerja Terhadap Kinerja Karyawan pada Generasi Z di Kabupaten Wonogiri</a>
+					</div>
+		<div class="tocAuthors">
+												Joko Purnomo,									Evi Selvi,									Endang Taufiqurahman									</div>
+	</td>
+
+	<td class="tocArticleGalleysPages">
+		<div class="tocGalleys">
+												<a href="https://journal.stieamkop.ac.id/index.php/seiko/article/view/11725/6596" class="file">Download PDF</a>
+																		</div>
+		<div class="tocPages">
+			37 - 46
+		</div>
+	</td>
+</tr>
+</table>
+
+		
+				
+				
+				
+<table class="tocArticle">
+<tr valign="top">
+	<td class="tocArticleCoverImage">
+			</td>
+
+	
+
+	<td class="tocArticleTitleAuthors">
+		<div class="tocTitle">
+							<a href="https://journal.stieamkop.ac.id/index.php/seiko/article/view/11708">Pengaruh Profitabilitas, Leverage, Dan Likuiditas Terhadap Agresivitas Pajak (studi Kasus Pada Perusahaan Sektor Energi Yang Terdaftar Di Bursa Efek IndonesiaPeriode 2020-2024)</a>
+					</div>
+		<div class="tocAuthors">
+												Jessica Maulidia Halim,									Eva Maria Sulastri,									Venni Avionita									</div>
+	</td>
+
+	<td class="tocArticleGalleysPages">
+		<div class="tocGalleys">
+												<a href="https://journal.stieamkop.ac.id/index.php/seiko/article/view/11708/6599" class="file">Download PDF</a>
+																		</div>
+		<div class="tocPages">
+			47 - 59
+		</div>
+	</td>
+</tr>
+</table>
+
+
+
+
+	<br /><br />
+	<div id="pageFooter"><a href="https://info.flagcounter.com/C1h8"><img src="https://s11.flagcounter.com/count2/C1h8/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="2" /> <br /></a><p><img style="border-width: 0;" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" alt="Creative Commons License" /></p><div><a href="/index.php/otoritas" target="_blank">S E I K O : Journal of Management &amp; Business</a> is licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License.</a></div><div> </div><div>© All rights reserved 2018. S E I K O : Journal of Management &amp; Business - ISSN (Print) : 2598-831X, ISSN (Online) : 2598-8301.</div><div> </div><a href="https://info.flagcounter.com/C1h8"><br />
+
+<a title="Web Analytics" href="https://statcounter.com/p11796285/summary/"
+target="_blank"><img
+src="//c.statcounter.com/11796285/0/549c5e0f/1/" alt="Web
+Analytics" ></a></div>
+</div><!-- content -->
+</div><!-- main -->
+</div><!-- body -->
+
+
+
+</div><!-- container -->
+
+</body>
+</html>

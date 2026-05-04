@@ -1,0 +1,292 @@
+
+
+<!DOCTYPE html>
+<html lang="en-US" xml:lang="en-US">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>
+		Login
+					</title>
+
+	
+<meta name="generator" content="Open Journal Systems 3.3.0.21" />
+<meta name="supportedBy" content="ArtonLabs" />
+<meta name="supporterHompage" content="www.artonlabs.com" />
+	<link rel="stylesheet" href="https://cdn.artonlabs.com/assets/ojs/3.3.0.21/cloudgalaxy/styles/skin/default.css?v=3.3.0.21" type="text/css" /><link rel="stylesheet" href="https://cdn.artonlabs.com/assets/ojs/3.3.0.21/cloudgalaxy/styles/basscss.min.css?v=3.3.0.21" type="text/css" /><link rel="stylesheet" href="https://cdn.artonlabs.com/assets/ojs/3.3.0.21/cloudgalaxy/styles/fontawesome/css/all.min.css?v=3.3.0.21" type="text/css" /><link rel="stylesheet" href="https://cdn.artonlabs.com/assets/ojs/3.3.0.21/cloudgalaxy/styles/academicons/css/academicons.min.css?v=3.3.0.21" type="text/css" /><link rel="stylesheet" href="//fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i" type="text/css" /><link rel="stylesheet" href="//fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" type="text/css" /><link rel="stylesheet" href="https://cdn.artonlabs.com/assets/ojs/3.3.0.21/cloudgalaxy/styles/shadow.css?v=3.3.0.21" type="text/css" />
+</head>
+
+<body class="pkp_page_login pkp_op_index has_site_logo">
+    <script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+	<div class="pkp_structure_page">
+        <header class="navbar navbar-default navbar-fixed-top  " id="headerNavigationContainer" role="banner">
+                        <div class="topbar-phd">
+                    <div class='container'>
+        <div class='row'>
+            <nav class='navbar-left topbar'>
+                            </nav>						
+            <nav aria-label="User Navigation" class="topbar">
+                	<ul id="navigationUser" class="nav nav-pills tab-list pull-right ojs-nav">
+														<li class="">
+				<a href="https://jurnal.umko.ac.id/">
+					<i class="fa fa-home"></i> <span class="hidden-xs hidden-sm">Home</span>
+									</a>
+							</li>
+														<li class="">
+				<a href="https://www.umko.ac.id">
+					<i class="fa fa-link"></i> <span class="hidden-xs hidden-sm">University Site</span>
+									</a>
+							</li>
+														<li class="">
+				<a href="https://jurnal.umko.ac.id/index.php/index/download">
+					<i class="fa fa-download"></i> <span class="hidden-xs hidden-sm">Download</span>
+									</a>
+							</li>
+														<li class="">
+				<a href="https://jurnal.umko.ac.id/index.php/index/login">
+					Login
+									</a>
+							</li>
+														<li class="">
+				<a href="https://jurnal.umko.ac.id/index.php/index/user/register">
+					Register
+									</a>
+							</li>
+										</ul>
+
+
+            </nav>
+        </div>
+    </div>
+</div>
+                        <div class="container">
+<div class="navbar-header">
+
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-menu" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+    </button>
+
+        
+    <h1 class="site-name">
+                            <a href="                            https://jurnal.umko.ac.id/index.php/index
+                    " class="navbar-brand navbar-brand-logo">
+                <img class="journal-logo-site"
+                    src="https://jurnal.umko.ac.id/public/site/pageHeaderTitleImage_en_US.png"                     alt="Logo UMKO">
+            </a>
+            </h1>
+
+</div>
+
+
+    <nav id="nav-menu" class="navbar-collapse collapse navbar-right" aria-label="Site Navigation">
+                            	<ul id="main-navigation" class="nav navbar-nav navbar-primary">
+														<li class="">
+				<a href="https://jurnal.umko.ac.id/index.php/index/how-to-submit">
+					<i class="fa fa-question"></i> How to Submit
+									</a>
+							</li>
+														<li class="">
+				<a href="https://jurnal.umko.ac.id/index.php/index/contact">
+					<i class="fa fa-phone"></i>  Contact
+									</a>
+							</li>
+														<li class="">
+				<a href="https://jurnal.umko.ac.id/index.php/index/about">
+					<i class='fa fa-building'></i> About Us
+									</a>
+							</li>
+														<li class="">
+				<a href="https://jurnal.umko.ac.id/index.php/index/editorial-boards">
+					<i class='fa fa-users'></i> Editorial Boards
+									</a>
+							</li>
+														<li class="">
+				<a href="https://jurnal.umko.ac.id/index.php/index/service">
+					<i class='fa fa-list'></i> Services
+									</a>
+							</li>
+			</ul>
+
+
+    
+    </nav>
+
+</div>
+        </header><!-- end header -->
+
+                            <div class="slideshow slideshow-smaller">
+            <style type="text/css">
+    .slide-pattern {
+        background: url('https://cdn.artonlabs.com/assets/ojs/3.3.0.21/cloudgalaxy//media/images/default/pattern.png');
+    }
+</style>
+
+            <div class="slide-content" style="background: url('https://jurnal.umko.ac.id/public/site/images/slides/3-min.jpg'); background-size: cover;">
+        <div class="slide-pattern"></div>
+        <div class="slide-cover"></div>
+        <div class="container slide-text">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h1 class="mb0" style="font-family: Raleway">Login</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+            <div class="slideshow-footer">
+                <img class="slideshow-footer-bg" src="https://cdn.artonlabs.com/assets/ojs/3.3.0.21/cloudgalaxy//media/images/default/slideshow-footer.png" />
+            </div>
+        </div>
+    
+        <div class='container-phd p-relative'>
+            <div class='bg-accent-top'></div>
+            <div class="container">
+                <div class="row">
+    <div class="col-md-12">
+                                </div>
+</div>
+
+                <div class="pkp_structure_content row">
+                                            <main class="pkp_structure_main col-md-12" role="main">
+                    
+
+<div id="main-content" class="page page_login">
+
+    <div class="page-content">
+
+        <h2 class="py2 m0 mb3" style="border-bottom: 1px solid #f1f1f1;">Login</h2>
+
+    	    	
+    	<form class="pkp_form login" id="login" method="post" action="https://jurnal.umko.ac.id/index.php/index/login/signIn">
+    		<input type="hidden" name="csrfToken" value="97d6e92c80383e7b9a2dfe105f32e17c" />
+    		<input type="hidden" name="source" value="/index.php/berdaya/article/download/399/390" />
+
+    		
+    		<div class="form-group">
+    			<label for="login-username">
+    				Username
+    			</label>
+    			<input type="text" name="username" class="form-control" id="login-username" placeholder="Username" value="" maxlenght="32" required>
+    		</div>
+
+    		<div class="form-group">
+    			<label for="login-password">
+    				Password
+    			</label>
+    			<input type="password" name="password" class="form-control" id="login-password" placeholder="Password" password="true" maxlength="32" required="$passwordRequired">
+    		</div>
+
+    		<div class="form-group">
+    			<a href="https://jurnal.umko.ac.id/index.php/index/login/lostPassword">
+    				Forgot your password?
+    			</a>
+    		</div>
+
+    		<div class="checkbox">
+    			<label>
+    				<input type="checkbox" name="remember" id="remember" value="1" checked="$remember"> Keep me logged in
+    			</label>
+    		</div>
+
+            <div class="text-center">
+                <div class="buttons">
+        			<button type="submit" class="btn btn-primary">
+        				Login
+        			</button>
+
+        			        				        				<a class="btn btn-default register-button" href="https://jurnal.umko.ac.id/index.php/index/user/register?source=%2Findex.php%2Fberdaya%2Farticle%2Fdownload%2F399%2F390" role="button">
+        					Register
+        				</a>
+        			        		</div>
+            </div>
+    	</form>
+    </div>
+</div><!-- .page -->
+
+	</main>
+
+	        
+	</div><!-- pkp_structure_content -->
+	</div><!-- container -->
+	</div><!-- container_phd -->
+
+    <div class="footer" role="contentinfo">
+                        
+<div class="container">
+    <div class="row">
+        <div class="col-md-10">
+            <div class="footer-title">About Journal</div>
+            <h3>Digital Journal of Universitas Muhammadiyah Kotabumi</h3>
+                            <div class=""><div class="row-group">
+<div>Lembaga Penelitian dan Pengabdian pada Masyarakat UMKO</div>
+<div>Sentra Kekayaan Intelektual dan Publikasi Ilmiah UMKO</div>
+</div></div>
+            
+                            <div style="margin-top: 15px;">
+                    <span class="fa fa-user"></span> SKIPI - Universitas Muhammadiyah Kotabumi
+                </div>
+            
+                            <div class="m0">
+                    <a href="/cdn-cgi/l/email-protection#f29887809c939eb2879f999ddc9391dc9b96">
+                        <span class="fa fa-envelope"></span> <span class="__cf_email__" data-cfemail="422837302c232e02372f292d6c23216c2b26">[email&#160;protected]</span>
+                    </a>
+                </div>
+                    </div>
+
+        
+        <div class="col-md-2">
+                                                    <div class="footer-title">Navigation</div>
+                <nav id="footer-center" class="navbar-vertical" aria-label="Site Navigation">
+                                                        	<ul id="footer-center" class="nav-menu">
+														<li class="">
+				<a href="https://jurnal.umko.ac.id/index.php/index/how-to-submit">
+					<i class="fa fa-question"></i> How to Submit
+									</a>
+							</li>
+														<li class="">
+				<a href="https://jurnal.umko.ac.id/index.php/index/contact">
+					<i class="fa fa-phone"></i>  Contact
+									</a>
+							</li>
+														<li class="">
+				<a href="https://jurnal.umko.ac.id/index.php/index/about">
+					<i class='fa fa-building'></i> About Us
+									</a>
+							</li>
+														<li class="">
+				<a href="https://jurnal.umko.ac.id/index.php/index/editorial-boards">
+					<i class='fa fa-users'></i> Editorial Boards
+									</a>
+							</li>
+														<li class="">
+				<a href="https://jurnal.umko.ac.id/index.php/index/service">
+					<i class='fa fa-list'></i> Services
+									</a>
+							</li>
+			</ul>
+
+
+            
+                </nav>
+            
+        </div>
+    </div> </div> 
+
+
+                
+        <div class="attribution">
+    <span>Tema OJS3 "Guardian Galaxy" Dikembangkan oleh <a href='https://www.artonlabs.com/' target='_blank'>Artonlabs</a>.</span>
+</div>
+    </div>
+
+
+</div><!-- pkp_structure_page -->
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://jurnal.umko.ac.id/lib/pkp/lib/vendor/components/jquery/jquery.min.js?v=3.3.0.21" type="text/javascript"></script><script src="https://jurnal.umko.ac.id/lib/pkp/lib/vendor/components/jqueryui/jquery-ui.min.js?v=3.3.0.21" type="text/javascript"></script><script src="https://jurnal.umko.ac.id/lib/pkp/js/lib/jquery/plugins/jquery.tag-it.js?v=3.3.0.21" type="text/javascript"></script><script src="https://cdn.artonlabs.com/assets/ojs/3.3.0.21/cloudgalaxy/scripts/script.js?v=3.3.0.21" type="text/javascript"></script><script src="https://cdn.artonlabs.com/assets/ojs/3.3.0.21/cloudgalaxy/styles/bootstrap/js/bootstrap.min.js?v=3.3.0.21" type="text/javascript"></script>
+
+
+
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9f651be1f91440fa',t:'MTc3Nzg3MjU3OA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>

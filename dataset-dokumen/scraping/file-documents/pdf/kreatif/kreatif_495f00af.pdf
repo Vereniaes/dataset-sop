@@ -1,0 +1,1001 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Syntax : Journal of Software Engineering, Computer Science and Information Technology</title>
+	<meta name="description" content="Rekayasa Perangkat Lunak" />
+	<meta name="keywords" content="software engineering; rekayasa perangkat lunak; ilmu komputer; computer science; teknologi informasi; information technology" />
+	<meta name="generator" content="Open Journal Systems 2.4.8.3" />
+	
+	<link rel="icon" href="https://jurnal.dharmawangsa.ac.id/public/journals/11/journalFavicon_en_US.png" type="image/png" />	<link rel="stylesheet" href="https://jurnal.dharmawangsa.ac.id/lib/pkp/styles/pkp.css" type="text/css" />
+	<link rel="stylesheet" href="https://jurnal.dharmawangsa.ac.id/lib/pkp/styles/common.css" type="text/css" />
+	<link rel="stylesheet" href="https://jurnal.dharmawangsa.ac.id/styles/common.css" type="text/css" />
+	<link rel="stylesheet" href="https://jurnal.dharmawangsa.ac.id/styles/compiled.css" type="text/css" />
+
+	<!-- Base Jquery -->
+	<script type="text/javascript" src="//www.google.com/jsapi"></script>
+		<script type="text/javascript">
+			<!--
+			// Provide a local fallback if the CDN cannot be reached
+			if (typeof google == 'undefined') {
+				document.write(unescape("%3Cscript src='https://jurnal.dharmawangsa.ac.id/lib/pkp/js/lib/jquery/jquery.min.js' type='text/javascript'%3E%3C/script%3E"));
+				document.write(unescape("%3Cscript src='https://jurnal.dharmawangsa.ac.id/lib/pkp/js/lib/jquery/plugins/jqueryUi.min.js' type='text/javascript'%3E%3C/script%3E"));
+			} else {
+				google.load("jquery", "1.4.4");
+				google.load("jqueryui", "1.8.6");
+			}
+			// -->
+		</script>
+	
+	
+	
+	<link rel="stylesheet" href="https://jurnal.dharmawangsa.ac.id/styles/sidebar.css" type="text/css" />		<link rel="stylesheet" href="https://jurnal.dharmawangsa.ac.id/styles/rightSidebar.css" type="text/css" />	
+			<link rel="stylesheet" href="https://jurnal.dharmawangsa.ac.id/public/journals/11/journalStyleSheet.css" type="text/css" />
+			<link rel="stylesheet" href="https://jurnal.dharmawangsa.ac.id/plugins/blocks/languageToggle/styles/languageToggle.css" type="text/css" />
+	
+	<!-- Default global locale keys for JavaScript -->
+	
+<script type="text/javascript">
+	jQuery.pkp = jQuery.pkp || { };
+	jQuery.pkp.locale = { };
+			
+				jQuery.pkp.locale.form_dataHasChanged = 'The data on this form has changed. Continue anyway?';
+	</script>
+	<!-- Compiled scripts -->
+			
+<script type="text/javascript" src="https://jurnal.dharmawangsa.ac.id/lib/pkp/js/lib/jquery/plugins/jquery.tag-it.js"></script>
+<script type="text/javascript" src="https://jurnal.dharmawangsa.ac.id/lib/pkp/js/lib/jquery/plugins/jquery.cookie.js"></script>
+
+<script type="text/javascript" src="https://jurnal.dharmawangsa.ac.id/lib/pkp/js/functions/fontController.js"></script>
+<script type="text/javascript" src="https://jurnal.dharmawangsa.ac.id/lib/pkp/js/functions/general.js"></script>
+<script type="text/javascript" src="https://jurnal.dharmawangsa.ac.id/lib/pkp/js/functions/jqueryValidatorI18n.js"></script>
+
+<script type="text/javascript" src="https://jurnal.dharmawangsa.ac.id/lib/pkp/js/classes/Helper.js"></script>
+<script type="text/javascript" src="https://jurnal.dharmawangsa.ac.id/lib/pkp/js/classes/ObjectProxy.js"></script>
+<script type="text/javascript" src="https://jurnal.dharmawangsa.ac.id/lib/pkp/js/classes/Handler.js"></script>
+<script type="text/javascript" src="https://jurnal.dharmawangsa.ac.id/lib/pkp/js/classes/linkAction/LinkActionRequest.js"></script>
+<script type="text/javascript" src="https://jurnal.dharmawangsa.ac.id/lib/pkp/js/classes/features/Feature.js"></script>
+
+<script type="text/javascript" src="https://jurnal.dharmawangsa.ac.id/lib/pkp/js/controllers/SiteHandler.js"></script><!-- Included only for namespace definition -->
+<script type="text/javascript" src="https://jurnal.dharmawangsa.ac.id/lib/pkp/js/controllers/UrlInDivHandler.js"></script>
+<script type="text/javascript" src="https://jurnal.dharmawangsa.ac.id/lib/pkp/js/controllers/AutocompleteHandler.js"></script>
+<script type="text/javascript" src="https://jurnal.dharmawangsa.ac.id/lib/pkp/js/controllers/ExtrasOnDemandHandler.js"></script>
+<script type="text/javascript" src="https://jurnal.dharmawangsa.ac.id/lib/pkp/js/controllers/form/FormHandler.js"></script>
+<script type="text/javascript" src="https://jurnal.dharmawangsa.ac.id/lib/pkp/js/controllers/form/AjaxFormHandler.js"></script>
+<script type="text/javascript" src="https://jurnal.dharmawangsa.ac.id/lib/pkp/js/controllers/form/ClientFormHandler.js"></script>
+<script type="text/javascript" src="https://jurnal.dharmawangsa.ac.id/lib/pkp/js/controllers/grid/GridHandler.js"></script>
+<script type="text/javascript" src="https://jurnal.dharmawangsa.ac.id/lib/pkp/js/controllers/linkAction/LinkActionHandler.js"></script>
+
+<script type="text/javascript" src="https://jurnal.dharmawangsa.ac.id/js/pages/search/SearchFormHandler.js"></script>
+<script type="text/javascript" src="https://jurnal.dharmawangsa.ac.id/js/statistics/ReportGeneratorFormHandler.js"></script>
+<script type="text/javascript" src="https://jurnal.dharmawangsa.ac.id/plugins/generic/lucene/js/LuceneAutocompleteHandler.js"></script>
+
+<script type="text/javascript" src="https://jurnal.dharmawangsa.ac.id/lib/pkp/js/lib/jquery/plugins/jquery.pkp.js"></script>	
+	<!-- Form validation -->
+	<script type="text/javascript" src="https://jurnal.dharmawangsa.ac.id/lib/pkp/js/lib/jquery/plugins/validate/jquery.validate.js"></script>
+	<script type="text/javascript">
+		<!--
+		// initialise plugins
+		
+		$(function(){
+			jqueryValidatorI18n("https://jurnal.dharmawangsa.ac.id", "en_US"); // include the appropriate validation localization
+			
+			$(".tagit").live('click', function() {
+				$(this).find('input').focus();
+			});
+		});
+		// -->
+		
+	</script>
+
+		
+	<link rel="alternate" type="application/atom+xml" title="Syntax : Journal of Software Engineering, Computer Science and Information Technology (atom+xml)" href="https://jurnal.dharmawangsa.ac.id/index.php/syntax/gateway/plugin/WebFeedGatewayPlugin/atom" />
+	<link rel="alternate" type="application/rdf+xml" title="Syntax : Journal of Software Engineering, Computer Science and Information Technology (rdf+xml)" href="https://jurnal.dharmawangsa.ac.id/index.php/syntax/gateway/plugin/WebFeedGatewayPlugin/rss" />
+	<link rel="alternate" type="application/rss+xml" title="Syntax : Journal of Software Engineering, Computer Science and Information Technology (rss+xml)" href="https://jurnal.dharmawangsa.ac.id/index.php/syntax/gateway/plugin/WebFeedGatewayPlugin/rss2" />
+</head>
+<body id="pkp-common-openJournalSystems">
+<div id="container">
+
+<div id="header">
+<div id="headerTitle">
+<h1>
+	<img src="https://jurnal.dharmawangsa.ac.id/public/journals/11/homeHeaderTitleImage_en_US.png" width="1020" height="238" alt="Page Header" />
+</h1>
+</div>
+</div>
+
+<div id="body">
+
+	<div id="sidebar">
+							<div id="rightSidebar">
+				<div class="block custom" id="customblock-issn">
+	<pre><span style="font-size: small;"><span style="font-family: arial, helvetica, sans-serif;"><strong><span class="blockTitle">ISSN</span></strong></span>&nbsp;</span></pre>
+<p><img src="/public/site/images/admin_syntax/issn-logo2.png" alt="" /></p>
+<p><a href="https://issn.brin.go.id/terbit/detail/20210427171164538" target="_blank"><span style="font-family: 'arial black', 'avant garde'; font-size: small;">P-ISSN : 2776-7027</span></a></p>
+<p><span style="font-family: 'arial black', 'avant garde'; font-size: small;"> <a href="https://issn.brin.go.id/terbit/detail/1592325498" target="_blank">E-ISSN : 2723-0538</a>&nbsp;</span></p>
+<p><span style="font-family: 'arial black', 'avant garde'; font-size: small;"> <a href="https://sinta.kemdikbud.go.id/journals/profile/12725" target="_blank"><img src="/public/site/images/admin_syntax/Logo-Sinta-5-a.png" alt="" /> </a> </span></p>
+<p>&nbsp;</p>
+</div>	<div class="block custom" id="customblock-register">
+	<pre><span style="font-size: small;"><span style="font-family: arial, helvetica, sans-serif;"><strong><span class="blockTitle">SUBMIT ARTICLE NOW</span></strong></span>&nbsp;</span></pre>
+<p>&nbsp;<a href="/index.php/syntax/login" target="_blank"><img src="/public/site/images/admin_syntax/register-login_copy.png" alt="" /></a></p>
+</div>	<div class="block custom" id="customblock-menu">
+	<pre><span style="font-size: large;"><strong><span class="blockTitle">MENU</span></strong></span></pre>
+<table width="179" cellspacing="0" cellpadding="0" align="left">
+<tbody>
+<tr>
+<td style="height: 25px; padding-top: 3px; padding-bottom: 3px; vertical-align: middle; border-bottom: 1px solid #000000; text-align: center; background-color: #fed430;"><span style="font-size: small;"><span style="color: #000000;"><a style="text-decoration: none;" href="/index.php/syntax/pages/view/fokus_scope" target="_self">Focus and Scope</a></span></span></td>
+</tr>
+<tr>
+<td style="height: 25px; padding-top: 3px; padding-bottom: 3px; vertical-align: middle; border-bottom: 1px solid #000000; text-align: center; background-color: #fed430;"><span style="font-size: small;"><span style="color: #000000;"><a style="text-decoration: none;" href="/index.php/syntax/pages/view/editorial_team" target="_self">Editorial Team</a></span></span></td>
+</tr>
+<tr>
+<td style="height: 25px; padding-top: 3px; padding-bottom: 3px; vertical-align: middle; border-bottom: 1px solid #000000; text-align: center; background-color: #fed430;"><span style="font-size: small;"><span style="color: #000000;"><a style="text-decoration: none;" href="/index.php/syntax/pages/view/reviewer" target="_self">Reviewer</a></span></span></td>
+</tr>
+<tr>
+<td style="height: 25px; padding-top: 3px; padding-bottom: 3px; vertical-align: middle; border-bottom: 1px solid #000000; text-align: center; background-color: #fed430;"><span style="font-size: small;"><span style="color: #000000;"><a style="text-decoration: none;" href="/index.php/syntax/pages/view/Panduan_Penulisan" target="_self">Author Guidelines</a></span></span></td>
+</tr>
+<tr>
+<td style="height: 25px; padding-top: 3px; padding-bottom: 3px; vertical-align: middle; border-bottom: 1px solid #000000; text-align: center; background-color: #fed430;"><span style="font-size: small;"><span style="color: #000000;"><a style="text-decoration: none;" href="/index.php/syntax/pages/view/review_process" target="_self">Review Process</a></span></span></td>
+</tr>
+<tr>
+<td style="height: 25px; padding-top: 3px; padding-bottom: 3px; vertical-align: middle; border-bottom: 1px solid #000000; text-align: center; background-color: #fed430;"><span style="font-size: small;"><span style="color: #000000;"><a style="text-decoration: none;" href="/index.php/syntax/pages/view/etika_publikasi1" target="_self">Publication Ethics</a></span></span></td>
+</tr>
+<tr>
+<td style="height: 25px; padding-top: 3px; padding-bottom: 3px; vertical-align: middle; border-bottom: 1px solid #000000; text-align: center; background-color: #fed430;"><span style="font-size: small;"><span style="color: #000000;"><a style="text-decoration: none;" href="/index.php/syntax/pages/view/Copyright_Notice" target="_self">Copyright Notice</a></span></span></td>
+</tr>
+<tr>
+<td style="height: 25px; padding-top: 3px; padding-bottom: 3px; vertical-align: middle; border-bottom: 1px solid #000000; text-align: center; background-color: #fed430;"><span style="font-size: small;"><span style="color: #000000;"><a style="text-decoration: none;" href="/index.php/syntax/pages/view/plagiarism_statement" target="_self">Plagiarism Statement</a></span></span></td>
+</tr>
+<tr>
+<td style="height: 25px; padding-top: 3px; padding-bottom: 3px; vertical-align: middle; border-bottom: 1px solid #000000; text-align: center; background-color: #fed430;"><span style="font-size: small;"><span style="color: #000000;"><a style="text-decoration: none;" href="/index.php/syntax/pages/view/Indexing" target="_self">Indexing</a></span></span></td>
+</tr>
+<tr>
+<td style="height: 25px; padding-top: 3px; padding-bottom: 3px; vertical-align: middle; border-bottom: 1px solid #000000; text-align: center; background-color: #fed430;"><span style="font-size: small;"><span style="color: #000000;"><a style="text-decoration: none;" href="/index.php/syntax/pages/view/biaya_publikasi" target="_self">Biaya Publikasi</a></span></span></td>
+</tr>
+<tr>
+<td style="height: 25px; padding-top: 3px; padding-bottom: 3px; vertical-align: middle; border-bottom: 1px solid #000000; text-align: center; background-color: #fed430;"><span style="font-size: small;"><span style="color: #000000;"><a style="text-decoration: none;" href="/index.php/syntax/about/contact" target="_self">Contact Us</a></span></span></td>
+</tr>
+</tbody>
+</table>
+</div>	<div class="block" id="sidebarUser">
+			<span class="blockTitle">User</span>
+	
+												<form method="post" action="https://jurnal.dharmawangsa.ac.id/index.php/syntax/login/signIn">
+					<table>
+						<tr>
+							<td><label for="sidebar-username">Username</label></td>
+							<td><input type="text" id="sidebar-username" name="username" value="" size="12" maxlength="32" class="textField" /></td>
+						</tr>
+						<tr>
+							<td><label for="sidebar-password">Password</label></td>
+							<td><input type="password" id="sidebar-password" name="password" value="" size="12" class="textField" /></td>
+						</tr>
+						<tr>
+							<td colspan="2"><input type="checkbox" id="remember" name="remember" value="1" /> <label for="remember">Remember me</label></td>
+						</tr>
+						<tr>
+							<td colspan="2"><input type="submit" value="Login" class="button" /></td>
+						</tr>
+					</table>
+				</form>
+						</div> <div class="block" id="notification">
+	<span class="blockTitle">Notifications</span>
+	<ul>
+					<li><a href="https://jurnal.dharmawangsa.ac.id/index.php/syntax/notification">View</a></li>
+			<li><a href="https://jurnal.dharmawangsa.ac.id/index.php/syntax/notification/subscribeMailList">Subscribe</a></li>
+			</ul>
+</div>
+<div class="block custom" id="customblock-download">
+	<pre><span style="font-size: large;"><strong><span class="blockTitle">JOURNAL TEMPLATE</span></strong></span></pre>
+<p><a href="https://drive.google.com/file/d/1QjzppdvXdhQxxmq5zuwPnQogmYGEt_Z4/view?usp=sharing" target="_blank"><img src="/public/site/images/admin_syntax/journal-template4.png" alt="" /></a></p>
+</div>	<div class="block custom" id="customblock-indexing">
+	
+</div>	<div class="block custom" id="customblock-tools">
+	<pre><span style="font-size: large;"><strong><span class="blockTitle">TOOLS</span></strong></span></pre>
+<p>&nbsp;</p>
+<p><img src="/public/site/images/admin_syntax/logo-turnitin.png" alt="" /></p>
+<p>&nbsp;</p>
+<p><img src="/public/site/images/admin_syntax/logo-grammerly.png" alt="" /></p>
+<p>&nbsp;</p>
+<p><img src="/public/site/images/admin_syntax/logo-mendeley-new.png" alt="" /></p>
+</div>	<div class="block custom" id="customblock-support">
+	
+</div>	
+<div class="block" id="sidebarLanguageToggle">
+	<script type="text/javascript">
+		<!--
+		function changeLanguage() {
+			var e = document.getElementById('languageSelect');
+			var new_locale = e.options[e.selectedIndex].value;
+
+			var redirect_url = 'https://jurnal.dharmawangsa.ac.id/index.php/syntax/user/setLocale/NEW_LOCALE?source=%2Findex.php%2Fsyntax%2Findex';
+			redirect_url = redirect_url.replace("NEW_LOCALE", new_locale);
+
+			window.location.href = redirect_url;
+		}
+		//-->
+	</script>
+	<span class="blockTitle">Language</span>
+	<form action="#">
+		<label for="languageSelect">Select Language</label>
+		<select id="languageSelect" size="1" name="locale" class="selectMenu"><option label="Bahasa Indonesia" value="id_ID">Bahasa Indonesia</option>
+<option label="English" value="en_US" selected="selected">English</option>
+</select>
+		<input type="submit" class="button" value="Submit" onclick="changeLanguage(); return false;" />
+	</form>
+</div>
+<div class="block" id="sidebarNavigation">
+	<span class="blockTitle">Journal Content</span>
+
+	
+	
+	<form id="simpleSearchForm" action="https://jurnal.dharmawangsa.ac.id/index.php/syntax/search/search">
+				<table id="simpleSearchInput">
+			<tr>
+				<td>
+													<label for="simpleQuery">Search <br />
+					<input type="text" id="simpleQuery" name="simpleQuery" size="15" maxlength="255" value="" class="textField" /></label>
+								</td>
+			</tr>
+			<tr>
+				<td><label for="searchField">
+				Search Scope
+				<br />
+				<select id="searchField" name="searchField" size="1" class="selectMenu">
+					<option label="All" value="query">All</option>
+<option label="Authors" value="authors">Authors</option>
+<option label="Title" value="title">Title</option>
+<option label="Abstract" value="abstract">Abstract</option>
+<option label="Index terms" value="indexTerms">Index terms</option>
+<option label="Full Text" value="galleyFullText">Full Text</option>
+
+				</select></label>
+				</td>
+			</tr>
+			<tr>
+				<td><input type="submit" value="Search" class="button" /></td>
+			</tr>
+		</table>
+	</form>
+
+	<br />
+
+		<span class="blockSubtitle">Browse</span>
+	<ul>
+		<li><a href="https://jurnal.dharmawangsa.ac.id/index.php/syntax/issue/archive">By Issue</a></li>
+		<li><a href="https://jurnal.dharmawangsa.ac.id/index.php/syntax/search/authors">By Author</a></li>
+		<li><a href="https://jurnal.dharmawangsa.ac.id/index.php/syntax/search/titles">By Title</a></li>
+		
+					<li><a href="https://jurnal.dharmawangsa.ac.id/index.php/index">Other Journals</a></li>
+			<li><a href="https://jurnal.dharmawangsa.ac.id/index.php/index/search/categories">Categories</a></li>			</ul>
+	</div>
+<div class="block custom" id="customblock-visitors">
+	<pre><span style="font-size: large;"><strong><span class="blockTitle">VISITOR STATISTIC</span></strong></span></pre>
+<p><a href="https://info.flagcounter.com/t4lr"><img src="https://s01.flagcounter.com/count2/t4lr/bg_FFFA61/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_Syntax+Visitors/labels_1/pageviews_1/flags_0/percent_0/" alt="Flag Counter" border="0" /></a></p>
+</div>	
+			</div>
+			</div>
+
+<div id="main">
+<div id="navbar">
+	<ul class="menu">
+		<li id="home"><a href="https://jurnal.dharmawangsa.ac.id/index.php/syntax/index">Home</a></li>
+		<li id="about"><a href="https://jurnal.dharmawangsa.ac.id/index.php/syntax/about">About</a></li>
+
+					<li id="login"><a href="https://jurnal.dharmawangsa.ac.id/index.php/syntax/login">Login</a></li>
+							<li id="register"><a href="https://jurnal.dharmawangsa.ac.id/index.php/syntax/user/register">Register</a></li>
+										<li id="categories"><a href="https://jurnal.dharmawangsa.ac.id/index.php/index/search/categories">Categories</a></li>
+							<li id="search"><a href="https://jurnal.dharmawangsa.ac.id/index.php/syntax/search">Search</a></li>
+		
+					<li id="current"><a href="https://jurnal.dharmawangsa.ac.id/index.php/syntax/issue/current">Current</a></li>
+			<li id="archives"><a href="https://jurnal.dharmawangsa.ac.id/index.php/syntax/issue/archive">Archives</a></li>
+		
+					<li id="announcements"><a href="https://jurnal.dharmawangsa.ac.id/index.php/syntax/announcement">Announcements</a></li>
+				
+
+								</ul>
+</div>
+<div id="breadcrumb">
+	<a href="https://jurnal.dharmawangsa.ac.id/index.php/syntax/index">Home</a> &gt;
+			<a href="https://jurnal.dharmawangsa.ac.id/index.php/syntax/index" class="current">Vol 6, No 2 (2025)</a></div>
+
+<h2>Syntax : Journal of Software Engineering, Computer Science and Information Technology</h2>
+
+
+<div id="content">
+
+
+	<div id="journalDescription"><p><strong>P-ISSN : 2776-7027</strong><br /><strong>E-ISSN : 2723-0538</strong></p><p><strong>Syntax: Journal of Software Engineering, Computer Science and Information Technology</strong> adalah Jurnal ilmiah yang dikelola dan diterbitkan oleh Program Studi Rekayasa Perangkat Lunak, Fakultas Teknik dan Ilmu Komputer, Universitas Dharmawangsa, Medan, Indonesia. Jurnal Syntax tebit 2 kali setahun pada bulan Juni dan Desember. Jurnal ini membahas tentang topik-topik yang berkenaan dengan bidang rekayasa perangkat lunak, ilmu komputer, sistem informasi, teknologi informasi dan komunikasi. </p></div>
+
+
+
+<br />
+<div id="homepageImage"><img src="https://jurnal.dharmawangsa.ac.id/public/journals/11/homepageImage_en_US.jpg" width="2480" height="3508" alt="Journal Homepage Image" /></div>
+
+
+<br />
+<div id="additionalHomeContent"></div>
+
+
+		<div id="announcementsHome">
+		<h3>Announcements</h3>
+		<table class="announcements">
+	<tr>
+		<td colspan="2" class="headseparator">&nbsp;</td>
+	</tr>
+
+
+			<tr class="title">
+					<td class="title"><h4>Call Paper Vol 5 No.1 dan 2 - Juni dan Desember 2024</h4></td>
+					<td class="more">&nbsp;</td>
+		</tr>
+		<tr class="description">
+			<td class="description"><br /><table id="announcementDescription" width="100%"><tbody><tr><td>Bapak/Ibu dosen, peneliti dan mahasiswa, Jurnal Syntax menerima artikel untuk diterbitkan pada Vol.5 No.1 dan 2 Juni dan Desember 2024, silahkan cek author guidlines dan template jurnal untuk mengirimkan artikel/manuscript anda, Salam Hangat dan Semangat, Terima kasih..</td></tr></tbody></table><p> </p></td>
+			<td class="more">&nbsp;</td>
+		</tr>
+		<tr class="details">
+			<td class="posted">Posted: 2024-02-06</td>
+					</tr>
+		<tr>
+		<td colspan="2" class="endseparator">&nbsp;</td>
+	</tr>
+	
+</table>	
+		<table class="announcementsMore">
+			<tr>
+				<td><a href="https://jurnal.dharmawangsa.ac.id/index.php/syntax/announcement">More Announcements...</a></td>
+			</tr>
+		</table>
+	</div>
+
+		<br />
+	<h3>Vol 6, No 2 (2025): Desember 2025</h3>
+		<div id="issueDescription"></div>
+		<h3>Table of Contents</h3>
+	<h4 class="tocSectionTitle">Articles</h4>
+		
+				
+				
+				
+<table class="tocArticle">
+<tr valign="top">
+	<td class="tocArticleCoverImage">
+			</td>
+
+	
+
+	<td class="tocArticleTitleAuthors">
+		<div class="tocTitle">
+							<a href="https://jurnal.dharmawangsa.ac.id/index.php/syntax/article/view/7802">PENERAPAN KADAR PH AIR BERSIH DENGAN METODE REGRESI LINEAR BERBASIS ANDROID</a>
+				                                <div>
+                <div class="tocDoi">
+                <span><img src="https://proceeding.dharmawangsa.ac.id/public/icon-doi-1.png" alt="" /> DOI : <a href="http://dx.doi.org/10.46576/syntax.v6i2.7802">10.46576/syntax.v6i2.7802</a></span>
+                                  | <img src="https://proceeding.dharmawangsa.ac.id/public/icon-graph.png" alt="" /> Abstract views : 60 times<br>
+                				
+                                </div>
+                </div>
+            					</div>
+
+		<div class="tocAuthors">
+												Hagai Sembiring,									Mas Ayoe Elhias Nasution									</div>
+	</td>
+
+	<td class="tocArticleGalleysPages">
+		<div class="tocGalleys">
+												<a href="https://jurnal.dharmawangsa.ac.id/index.php/syntax/article/view/7802/pdf" class="file">PDF (Bahasa Indonesia)</a>
+													
+									<br>
+					Abstract view : 60 times<br>
+													
+									</div>
+		<div class="tocPages">
+			141-146
+		</div>
+	</td>
+</tr>
+</table>
+
+		
+				
+				
+				
+<table class="tocArticle">
+<tr valign="top">
+	<td class="tocArticleCoverImage">
+			</td>
+
+	
+
+	<td class="tocArticleTitleAuthors">
+		<div class="tocTitle">
+							<a href="https://jurnal.dharmawangsa.ac.id/index.php/syntax/article/view/7888">PERANCANGAN FITUR PERINGATAN PENGEMBALIAN BUKU DALAM APLIKASI PERPUSTAKAAN BERBASIS ANDROID</a>
+				                                <div>
+                <div class="tocDoi">
+                <span><img src="https://proceeding.dharmawangsa.ac.id/public/icon-doi-1.png" alt="" /> DOI : <a href="http://dx.doi.org/10.46576/syntax.v6i2.7888">10.46576/syntax.v6i2.7888</a></span>
+                                  | <img src="https://proceeding.dharmawangsa.ac.id/public/icon-graph.png" alt="" /> Abstract views : 64 times<br>
+                				
+                                </div>
+                </div>
+            					</div>
+
+		<div class="tocAuthors">
+												Josep Febrian Situmorang,									Ria Eka Sari, M.Kom									</div>
+	</td>
+
+	<td class="tocArticleGalleysPages">
+		<div class="tocGalleys">
+												<a href="https://jurnal.dharmawangsa.ac.id/index.php/syntax/article/view/7888/pdf" class="file">PDF</a>
+													
+									<br>
+					Abstract view : 64 times<br>
+													
+									</div>
+		<div class="tocPages">
+			147-153
+		</div>
+	</td>
+</tr>
+</table>
+
+		
+				
+				
+				
+<table class="tocArticle">
+<tr valign="top">
+	<td class="tocArticleCoverImage">
+			</td>
+
+	
+
+	<td class="tocArticleTitleAuthors">
+		<div class="tocTitle">
+							<a href="https://jurnal.dharmawangsa.ac.id/index.php/syntax/article/view/8020">EVALUASI KINERJA YOLO V8 DAN SSD DALAM DETEKSI REAL-TIME SAMPAH BOTOL PLASTIK BERBASIS DEEP LEARNING</a>
+				                                <div>
+                <div class="tocDoi">
+                <span><img src="https://proceeding.dharmawangsa.ac.id/public/icon-doi-1.png" alt="" /> DOI : <a href="http://dx.doi.org/10.46576/syntax.v6i2.8020">10.46576/syntax.v6i2.8020</a></span>
+                                  | <img src="https://proceeding.dharmawangsa.ac.id/public/icon-graph.png" alt="" /> Abstract views : 75 times<br>
+                				
+                                </div>
+                </div>
+            					</div>
+
+		<div class="tocAuthors">
+												Alven Safik Ritonga,									Nurwahyudi Widhiyanta,									Eka Alifia Kusnanti									</div>
+	</td>
+
+	<td class="tocArticleGalleysPages">
+		<div class="tocGalleys">
+												<a href="https://jurnal.dharmawangsa.ac.id/index.php/syntax/article/view/8020/pdf" class="file">PDF (Bahasa Indonesia)</a>
+													
+									<br>
+					Abstract view : 75 times<br>
+													
+									</div>
+		<div class="tocPages">
+			154-161
+		</div>
+	</td>
+</tr>
+</table>
+
+		
+				
+				
+				
+<table class="tocArticle">
+<tr valign="top">
+	<td class="tocArticleCoverImage">
+			</td>
+
+	
+
+	<td class="tocArticleTitleAuthors">
+		<div class="tocTitle">
+							<a href="https://jurnal.dharmawangsa.ac.id/index.php/syntax/article/view/7183">IMPLEMENTASI METODE WATERFALL DALAM PENGEMBANGAN SISTEM INFORMASI REKRUTMEN ASISTEN LABORATORIUM ILMU KOMPUTER BERBASIS WEB</a>
+				                                <div>
+                <div class="tocDoi">
+                <span><img src="https://proceeding.dharmawangsa.ac.id/public/icon-doi-1.png" alt="" /> DOI : <a href="http://dx.doi.org/10.46576/syntax.v6i2.7183">10.46576/syntax.v6i2.7183</a></span>
+                                  | <img src="https://proceeding.dharmawangsa.ac.id/public/icon-graph.png" alt="" /> Abstract views : 107 times<br>
+                				
+                                </div>
+                </div>
+            					</div>
+
+		<div class="tocAuthors">
+												Kaka Davi Dharmawan,									Dodyk Fahlome,									Said Arrahman,									Dea Alya,									Nazwa Aliya Muthmainnah Hasibuan,									Naina Nazwa Hasibuan,									Mila wati,									Tiara Bela Harahap,									Salsabila Mahfuza,									Ilka Zufria									</div>
+	</td>
+
+	<td class="tocArticleGalleysPages">
+		<div class="tocGalleys">
+												<a href="https://jurnal.dharmawangsa.ac.id/index.php/syntax/article/view/7183/pdf" class="file">PDF (Bahasa Indonesia)</a>
+													
+									<br>
+					Abstract view : 107 times<br>
+													
+									</div>
+		<div class="tocPages">
+			162-171
+		</div>
+	</td>
+</tr>
+</table>
+
+		
+				
+				
+				
+<table class="tocArticle">
+<tr valign="top">
+	<td class="tocArticleCoverImage">
+			</td>
+
+	
+
+	<td class="tocArticleTitleAuthors">
+		<div class="tocTitle">
+							<a href="https://jurnal.dharmawangsa.ac.id/index.php/syntax/article/view/7947">PERANCANGAN APLIKASI MONITORING KEHADIRAN DAN KEGIATAN PESERTA MAGANG BERBASIS WEB</a>
+				                                <div>
+                <div class="tocDoi">
+                <span><img src="https://proceeding.dharmawangsa.ac.id/public/icon-doi-1.png" alt="" /> DOI : <a href="http://dx.doi.org/10.46576/syntax.v6i2.7947">10.46576/syntax.v6i2.7947</a></span>
+                                  | <img src="https://proceeding.dharmawangsa.ac.id/public/icon-graph.png" alt="" /> Abstract views : 65 times<br>
+                				
+                                </div>
+                </div>
+            					</div>
+
+		<div class="tocAuthors">
+												Mahfuzhah Rahma Kesuma,									Dewi Aulia Tanjung,									suhardi .									</div>
+	</td>
+
+	<td class="tocArticleGalleysPages">
+		<div class="tocGalleys">
+												<a href="https://jurnal.dharmawangsa.ac.id/index.php/syntax/article/view/7947/pdf" class="file">PDF (Bahasa Indonesia)</a>
+													
+									<br>
+					Abstract view : 65 times<br>
+													
+									</div>
+		<div class="tocPages">
+			172-179
+		</div>
+	</td>
+</tr>
+</table>
+
+		
+				
+				
+				
+<table class="tocArticle">
+<tr valign="top">
+	<td class="tocArticleCoverImage">
+			</td>
+
+	
+
+	<td class="tocArticleTitleAuthors">
+		<div class="tocTitle">
+							<a href="https://jurnal.dharmawangsa.ac.id/index.php/syntax/article/view/6638">KEYWORD EXTRACTION KOMENTAR TERHADAP KONFLIK INDIA-PAKISTAN PADA PLATFORM YOUTUBE MENGGUNAKAN TF-IDF DAN COSINE SIMILARITY</a>
+				                                <div>
+                <div class="tocDoi">
+                <span><img src="https://proceeding.dharmawangsa.ac.id/public/icon-doi-1.png" alt="" /> DOI : <a href="http://dx.doi.org/10.46576/syntax.v6i2.6638">10.46576/syntax.v6i2.6638</a></span>
+                                  | <img src="https://proceeding.dharmawangsa.ac.id/public/icon-graph.png" alt="" /> Abstract views : 62 times<br>
+                				
+                                </div>
+                </div>
+            					</div>
+
+		<div class="tocAuthors">
+												Nicholas Edison,									Kristian Fernando,									Hafiz Irsyad,									Abdul Rahman									</div>
+	</td>
+
+	<td class="tocArticleGalleysPages">
+		<div class="tocGalleys">
+												<a href="https://jurnal.dharmawangsa.ac.id/index.php/syntax/article/view/6638/pdf" class="file">PDF (Bahasa Indonesia)</a>
+													
+									<br>
+					Abstract view : 62 times<br>
+													
+									</div>
+		<div class="tocPages">
+			180-185
+		</div>
+	</td>
+</tr>
+</table>
+
+		
+				
+				
+				
+<table class="tocArticle">
+<tr valign="top">
+	<td class="tocArticleCoverImage">
+			</td>
+
+	
+
+	<td class="tocArticleTitleAuthors">
+		<div class="tocTitle">
+							<a href="https://jurnal.dharmawangsa.ac.id/index.php/syntax/article/view/7971">PENERAPAN SISTEM PAPERLESS OFFICE UNTUK MENINGKATKAN KINERJA PEGAWAI UIN SUMATERA UTARA MEDAN</a>
+				                                <div>
+                <div class="tocDoi">
+                <span><img src="https://proceeding.dharmawangsa.ac.id/public/icon-doi-1.png" alt="" /> DOI : <a href="http://dx.doi.org/10.46576/syntax.v6i2.7971">10.46576/syntax.v6i2.7971</a></span>
+                                  | <img src="https://proceeding.dharmawangsa.ac.id/public/icon-graph.png" alt="" /> Abstract views : 64 times<br>
+                				
+                                </div>
+                </div>
+            					</div>
+
+		<div class="tocAuthors">
+												M Alqusyairi Munir									</div>
+	</td>
+
+	<td class="tocArticleGalleysPages">
+		<div class="tocGalleys">
+												<a href="https://jurnal.dharmawangsa.ac.id/index.php/syntax/article/view/7971/pdf_1" class="file">PDF (Bahasa Indonesia)</a>
+													
+									<br>
+					Abstract view : 64 times<br>
+													
+									</div>
+		<div class="tocPages">
+			186-190
+		</div>
+	</td>
+</tr>
+</table>
+
+		
+				
+				
+				
+<table class="tocArticle">
+<tr valign="top">
+	<td class="tocArticleCoverImage">
+			</td>
+
+	
+
+	<td class="tocArticleTitleAuthors">
+		<div class="tocTitle">
+							<a href="https://jurnal.dharmawangsa.ac.id/index.php/syntax/article/view/7986">RANCANG BANGUN MANAJEMEN INVENTARIS DAN LAYANAN SERVIS BARANG BERBASIS WEB PADA PERUMDA TIRTANADI SUMUT</a>
+				                                <div>
+                <div class="tocDoi">
+                <span><img src="https://proceeding.dharmawangsa.ac.id/public/icon-doi-1.png" alt="" /> DOI : <a href="http://dx.doi.org/10.46576/syntax.v6i2.7986">10.46576/syntax.v6i2.7986</a></span>
+                                  | <img src="https://proceeding.dharmawangsa.ac.id/public/icon-graph.png" alt="" /> Abstract views : 57 times<br>
+                				
+                                </div>
+                </div>
+            					</div>
+
+		<div class="tocAuthors">
+												Puan Syaharani Sitorus,									fazila nazifa edilia,									M Raghif Hibrizi Daulay									</div>
+	</td>
+
+	<td class="tocArticleGalleysPages">
+		<div class="tocGalleys">
+												<a href="https://jurnal.dharmawangsa.ac.id/index.php/syntax/article/view/7986/pdf" class="file">PDF (Bahasa Indonesia)</a>
+													
+									<br>
+					Abstract view : 57 times<br>
+													
+									</div>
+		<div class="tocPages">
+			191-199
+		</div>
+	</td>
+</tr>
+</table>
+
+		
+				
+				
+				
+<table class="tocArticle">
+<tr valign="top">
+	<td class="tocArticleCoverImage">
+			</td>
+
+	
+
+	<td class="tocArticleTitleAuthors">
+		<div class="tocTitle">
+							<a href="https://jurnal.dharmawangsa.ac.id/index.php/syntax/article/view/7359">SISTEM PENDUKUNG KEPUTUSAN MENGGUNAKAN METODE MABAC UNTUK PEMILIHAN MOBIL JENIS SUV COMPACT TERBAIK</a>
+				                                <div>
+                <div class="tocDoi">
+                <span><img src="https://proceeding.dharmawangsa.ac.id/public/icon-doi-1.png" alt="" /> DOI : <a href="http://dx.doi.org/10.46576/syntax.v6i2.7359">10.46576/syntax.v6i2.7359</a></span>
+                                  | <img src="https://proceeding.dharmawangsa.ac.id/public/icon-graph.png" alt="" /> Abstract views : 66 times<br>
+                				
+                                </div>
+                </div>
+            					</div>
+
+		<div class="tocAuthors">
+												Satria Ananda Nasution,									Yuyun Dwi Lestari,									Yessy Fitri Annisah Lubis,									Muhammad Eka Eka									</div>
+	</td>
+
+	<td class="tocArticleGalleysPages">
+		<div class="tocGalleys">
+												<a href="https://jurnal.dharmawangsa.ac.id/index.php/syntax/article/view/7359/pdf" class="file">PDF (Bahasa Indonesia)</a>
+													
+									<br>
+					Abstract view : 66 times<br>
+													
+									</div>
+		<div class="tocPages">
+			200-207
+		</div>
+	</td>
+</tr>
+</table>
+
+		
+				
+				
+				
+<table class="tocArticle">
+<tr valign="top">
+	<td class="tocArticleCoverImage">
+			</td>
+
+	
+
+	<td class="tocArticleTitleAuthors">
+		<div class="tocTitle">
+							<a href="https://jurnal.dharmawangsa.ac.id/index.php/syntax/article/view/7957">IMPLEMENTASI SISTEM ABSENSI MAGANG BERBASIS GEOLOCATION MENGGUNAKAN METODE PROTOTYPING</a>
+				                                <div>
+                <div class="tocDoi">
+                <span><img src="https://proceeding.dharmawangsa.ac.id/public/icon-doi-1.png" alt="" /> DOI : <a href="http://dx.doi.org/10.46576/syntax.v6i2.7957">10.46576/syntax.v6i2.7957</a></span>
+                                  | <img src="https://proceeding.dharmawangsa.ac.id/public/icon-graph.png" alt="" /> Abstract views : 64 times<br>
+                				
+                                </div>
+                </div>
+            					</div>
+
+		<div class="tocAuthors">
+												Tiara Amanda Lestari,									Haidar Al-mutawalli,									Yusuf Ramadhan Nasution									</div>
+	</td>
+
+	<td class="tocArticleGalleysPages">
+		<div class="tocGalleys">
+												<a href="https://jurnal.dharmawangsa.ac.id/index.php/syntax/article/view/7957/pdf" class="file">PDF (Bahasa Indonesia)</a>
+													
+									<br>
+					Abstract view : 64 times<br>
+													
+									</div>
+		<div class="tocPages">
+			208-218
+		</div>
+	</td>
+</tr>
+</table>
+
+		
+				
+				
+				
+<table class="tocArticle">
+<tr valign="top">
+	<td class="tocArticleCoverImage">
+			</td>
+
+	
+
+	<td class="tocArticleTitleAuthors">
+		<div class="tocTitle">
+							<a href="https://jurnal.dharmawangsa.ac.id/index.php/syntax/article/view/8004">PERANCANGAN APLIKASI PEMBAYARAN SPP SEKOLAH PADA MTSS HIDAYATUS SHIBYAN BERBASIS WEB</a>
+				                                <div>
+                <div class="tocDoi">
+                <span><img src="https://proceeding.dharmawangsa.ac.id/public/icon-doi-1.png" alt="" /> DOI : <a href="http://dx.doi.org/10.46576/syntax.v6i2.8004">10.46576/syntax.v6i2.8004</a></span>
+                                  | <img src="https://proceeding.dharmawangsa.ac.id/public/icon-graph.png" alt="" /> Abstract views : 72 times<br>
+                				
+                                </div>
+                </div>
+            					</div>
+
+		<div class="tocAuthors">
+												alif azhar amsyari,									soeheri nawawi									</div>
+	</td>
+
+	<td class="tocArticleGalleysPages">
+		<div class="tocGalleys">
+												<a href="https://jurnal.dharmawangsa.ac.id/index.php/syntax/article/view/8004/pdf" class="file">PDF (Bahasa Indonesia)</a>
+													
+									<br>
+					Abstract view : 72 times<br>
+													
+									</div>
+		<div class="tocPages">
+			219-227
+		</div>
+	</td>
+</tr>
+</table>
+
+		
+				
+				
+				
+<table class="tocArticle">
+<tr valign="top">
+	<td class="tocArticleCoverImage">
+			</td>
+
+	
+
+	<td class="tocArticleTitleAuthors">
+		<div class="tocTitle">
+							<a href="https://jurnal.dharmawangsa.ac.id/index.php/syntax/article/view/8065">AUDIT SISTEM INFORMASI  TERHADAP PERHITUNGAN WEIGHTED PRODUCT (WP) DI EXCEL</a>
+				                                <div>
+                <div class="tocDoi">
+                <span><img src="https://proceeding.dharmawangsa.ac.id/public/icon-doi-1.png" alt="" /> DOI : <a href="http://dx.doi.org/10.46576/syntax.v6i2.8065">10.46576/syntax.v6i2.8065</a></span>
+                                  | <img src="https://proceeding.dharmawangsa.ac.id/public/icon-graph.png" alt="" /> Abstract views : 61 times<br>
+                				
+                                </div>
+                </div>
+            					</div>
+
+		<div class="tocAuthors">
+												J. Prayoga,									Muhammad Gifary,									Aldi Wiranata,									Maulana Maulana,									Naufal Nafriwan,									Rizqa Azahra Nst,									Reva Nurul Kalista									</div>
+	</td>
+
+	<td class="tocArticleGalleysPages">
+		<div class="tocGalleys">
+												<a href="https://jurnal.dharmawangsa.ac.id/index.php/syntax/article/view/8065/pdf" class="file">PDF (Bahasa Indonesia)</a>
+													
+									<br>
+					Abstract view : 61 times<br>
+													
+									</div>
+		<div class="tocPages">
+			228-237
+		</div>
+	</td>
+</tr>
+</table>
+
+		
+				
+				
+				
+<table class="tocArticle">
+<tr valign="top">
+	<td class="tocArticleCoverImage">
+			</td>
+
+	
+
+	<td class="tocArticleTitleAuthors">
+		<div class="tocTitle">
+							<a href="https://jurnal.dharmawangsa.ac.id/index.php/syntax/article/view/7296">EKSPLORASI PADA PEMETAAN KLASIFIKASI RADIOGRAF TORAKS PENYAKIT PARU-PARU MENGGUNAKAN CONVOLUTIONAL NEURAL NETWORK (CNN)</a>
+				                                <div>
+                <div class="tocDoi">
+                <span><img src="https://proceeding.dharmawangsa.ac.id/public/icon-doi-1.png" alt="" /> DOI : <a href="http://dx.doi.org/10.46576/syntax.v6i2.7296">10.46576/syntax.v6i2.7296</a></span>
+                                  | <img src="https://proceeding.dharmawangsa.ac.id/public/icon-graph.png" alt="" /> Abstract views : 69 times<br>
+                				
+                                </div>
+                </div>
+            					</div>
+
+		<div class="tocAuthors">
+												Andreas Rezeki Zai,									Bambang Suhardi,									Surya Tri Nowo,									Rika Rosnelly,									Adil Setiawan									</div>
+	</td>
+
+	<td class="tocArticleGalleysPages">
+		<div class="tocGalleys">
+												<a href="https://jurnal.dharmawangsa.ac.id/index.php/syntax/article/view/7296/pdf" class="file">PDF (Bahasa Indonesia)</a>
+													
+									<br>
+					Abstract view : 69 times<br>
+													
+									</div>
+		<div class="tocPages">
+			238-252
+		</div>
+	</td>
+</tr>
+</table>
+
+		
+				
+				
+				
+<table class="tocArticle">
+<tr valign="top">
+	<td class="tocArticleCoverImage">
+			</td>
+
+	
+
+	<td class="tocArticleTitleAuthors">
+		<div class="tocTitle">
+							<a href="https://jurnal.dharmawangsa.ac.id/index.php/syntax/article/view/8086">PERANCANGAN SISTEM INFORMASI STATISTIK MELALUI PORTAL INDIKATOR STRATEGIS BPS LABUHANBATU UTARA</a>
+				                                <div>
+                <div class="tocDoi">
+                <span><img src="https://proceeding.dharmawangsa.ac.id/public/icon-doi-1.png" alt="" /> DOI : <a href="http://dx.doi.org/10.46576/syntax.v6i2.8086">10.46576/syntax.v6i2.8086</a></span>
+                                  | <img src="https://proceeding.dharmawangsa.ac.id/public/icon-graph.png" alt="" /> Abstract views : 67 times<br>
+                				
+                                </div>
+                </div>
+            					</div>
+
+		<div class="tocAuthors">
+												Indah Lestari Lestari,									Cahaya Indah Siregar,									Eva Bunga Lestari,									Muhammad Furqan									</div>
+	</td>
+
+	<td class="tocArticleGalleysPages">
+		<div class="tocGalleys">
+												<a href="https://jurnal.dharmawangsa.ac.id/index.php/syntax/article/view/8086/pdf" class="file">PDF (Bahasa Indonesia)</a>
+													
+									<br>
+					Abstract view : 67 times<br>
+													
+									</div>
+		<div class="tocPages">
+			253-261
+		</div>
+	</td>
+</tr>
+</table>
+
+		
+				
+				
+				
+<table class="tocArticle">
+<tr valign="top">
+	<td class="tocArticleCoverImage">
+			</td>
+
+	
+
+	<td class="tocArticleTitleAuthors">
+		<div class="tocTitle">
+							<a href="https://jurnal.dharmawangsa.ac.id/index.php/syntax/article/view/6496">ANALISIS DAN IMPLEMENTASI METODE NAÏVE  BAYES  DALAM MENDIAGNOSIS STATUS GIZI BALITA UNTUK OPTIMALISASI PEMBERIAN MPASI SEBAGAI UPAYA PENCEGAHAN STUNTING</a>
+				                                <div>
+                <div class="tocDoi">
+                <span><img src="https://proceeding.dharmawangsa.ac.id/public/icon-doi-1.png" alt="" /> DOI : <a href="http://dx.doi.org/10.46576/syntax.v6i2.6496">10.46576/syntax.v6i2.6496</a></span>
+                                  | <img src="https://proceeding.dharmawangsa.ac.id/public/icon-graph.png" alt="" /> Abstract views : 45 times<br>
+                				
+                                </div>
+                </div>
+            					</div>
+
+		<div class="tocAuthors">
+												Firahmi Rizky,									Safira Asari									</div>
+	</td>
+
+	<td class="tocArticleGalleysPages">
+		<div class="tocGalleys">
+												<a href="https://jurnal.dharmawangsa.ac.id/index.php/syntax/article/view/6496/pdf" class="file">PDF (Bahasa Indonesia)</a>
+													
+									<br>
+					Abstract view : 45 times<br>
+													
+									</div>
+		<div class="tocPages">
+			
+		</div>
+	</td>
+</tr>
+</table>
+
+
+
+
+	<br /><br />
+	<div id="pageFooter"><p><strong><a style="background-color: #30318b; border-bottom: 1px solid #ffffff; color: #ffffff; display: block; padding: 0.45em 8px 0.4em 8px; text-decoration: none;" href="https://sinta.kemdikbud.go.id/journals/profile/12725" target="_blank"><span><strong>INDEXING:<br /></strong></span></a></strong></p><p><a href="https://scholar.google.com/citations?hl=id&amp;authuser=4&amp;user=MHUF224AAAAJ" target="_blank"><img src="/public/site/images/admin_syntax/logo-google1.png" alt="" /></a><a href="https://garuda.kemdikbud.go.id/journal/view/21300" target="_blank"><img src="/public/site/images/admin_syntax/logo-garuda.png" alt="" /></a><a href="https://onesearch.id/Search/Results?filter[]=repoId:IOS15617" target="_blank"><img src="/public/site/images/admin_syntax/logo-onesearch.gif" alt="" /></a><a href="https://portal.issn.org/resource/ISSN/2723-0538" target="_blank"><img src="/public/site/images/admin_syntax/logo-road1.gif" alt="" /></a><a href="https://issn.lipi.go.id/terbit/detail/1592325498" target="_blank"><img src="/public/site/images/admin_syntax/logo-lipi.png" alt="" /></a><a href="https://app.dimensions.ai/discover/publication?search_mode=content&amp;and_facet_source_title=jour.1422458" target="_blank"><img src="/public/site/images/admin_syntax/logo-dimensions.png" alt="" /></a><a href="https://journals.indexcopernicus.com/search/details?id=69310" target="_blank"><img src="/public/site/images/admin_syntax/logo-copernicus.gif" alt="" /></a><a href="https://search.crossref.org/?q=2723-0538&amp;from_ui=yes" target="_blank"><img src="/public/site/images/admin_syntax/logo-crossref.gif" alt="" /> </a><a href="https://sinta.kemdikbud.go.id/journals/profile/12725" target="_blank"><img src="/public/site/images/admin_syntax/Logo-Sinta-5-a2.png" alt="" /></a></p><p><a href="http://creativecommons.org/licenses/by/4.0/" rel="license"><img src="https://i.creativecommons.org/l/by/4.0/88x31.png" alt="Lisensi Creative Commons" /></a></p><p>Syntax: Journal of Software Engineering, Computer Science and Information Technology</p><p>Ciptaan disebarluaskan di bawah <a href="http://creativecommons.org/licenses/by/4.0/" rel="license">Lisensi Creative Commons Atribusi 4.0 Internasional</a>.</p></div>
+</div><!-- content -->
+</div><!-- main -->
+</div><!-- body -->
+
+
+
+</div><!-- container -->
+</body>
+</html>
